@@ -294,33 +294,52 @@ function makeMarker(f) {
   return m;
 }
 
+function escAttr(s) {
+  return String(s).replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/'/g, '&#39;')
+                  .replace(/</g, '&lt;').replace(/>/g, '&gt;');
+}
+function escHtml(s) {
+  return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+}
+
 function buildPopup(p) {
   const accLabel = {
     confirmed: '辞書一致', inherited: '参照継承',
     interpolated: '時系列補間', extrapolated: '外挿', fallback: 'フォールバック'
   }[p.accuracy] || p.accuracy;
-  const cats = p.categories.map(c => `<span>${c}</span>`).join('');
-  const fileEsc = JSON.stringify(p.file);
+  const cats = p.categories.map(c => `<span>${escHtml(c)}</span>`).join('');
+  const file = escAttr(p.file);
   const sims = (p.simulations || []);
   const simBlock = sims.length === 0 ? '' : `
     <div class="popup-sims">
       <div class="sim-h">▶ 景観シミュレーション ${sims.length}案</div>
       <div class="sim-row">
-        ${sims.map((s, i) => `<button onclick="openModalForFeature(${fileEsc}, ${i+1})">${s.id}：${s.title}</button>`).join('')}
+        ${sims.map((s, i) => `<button data-action="open-modal" data-file="${file}" data-idx="${i+1}">${escHtml(s.id)}：${escHtml(s.title)}</button>`).join('')}
       </div>
     </div>
   `;
   return `
-    <img class="popup-thumb" src="${p.thumb}" onclick="openModalForFeature(${fileEsc}, 0)" />
-    <div><span class="popup-file">${p.file}</span><span class="popup-time">${p.time}</span>
-         <span class="popup-acc acc-${p.accuracy}">${accLabel}</span></div>
-    <div class="popup-section"><span class="h">場所</span><br>${p.place_name || '-'}</div>
-    <div class="popup-section"><span class="h">業務関連ポイント</span><br>${p.business_point || '-'}</div>
-    <div class="popup-section"><span class="h">シミュレーション案</span><br>${p.simulation_idea || '-'}</div>
+    <img class="popup-thumb" data-action="open-modal" data-file="${file}" data-idx="0" src="${escAttr(p.thumb)}" />
+    <div><span class="popup-file">${escHtml(p.file)}</span><span class="popup-time">${escHtml(p.time)}</span>
+         <span class="popup-acc acc-${escAttr(p.accuracy)}">${accLabel}</span></div>
+    <div class="popup-section"><span class="h">場所</span><br>${escHtml(p.place_name || '-')}</div>
+    <div class="popup-section"><span class="h">業務関連ポイント</span><br>${escHtml(p.business_point || '-')}</div>
+    <div class="popup-section"><span class="h">シミュレーション案</span><br>${escHtml(p.simulation_idea || '-')}</div>
     <div class="popup-cats">${cats}</div>
     ${simBlock}
   `;
 }
+
+// イベントデリゲーション：ポップアップ内のサムネ・シミュボタンをクリックでモーダル
+document.addEventListener('click', (ev) => {
+  const trigger = ev.target.closest('[data-action="open-modal"]');
+  if (trigger) {
+    ev.preventDefault();
+    const file = trigger.dataset.file;
+    const idx = parseInt(trigger.dataset.idx, 10) || 0;
+    openModalForFeature(file, idx);
+  }
+});
 
 // ─── モーダル（タブ切替） ─────────────────
 let modalState = { variants: [], idx: 0 };
@@ -347,11 +366,14 @@ function buildModalTabs() {
     return;
   }
   tabs.style.display = 'flex';
-  tabs.innerHTML = modalState.variants.map((v, i) => {
-    const cls = (i === 0) ? 'original' : '';
-    const label = (i === 0) ? '元写真' : `${v.id}：${v.title}`;
-    return `<button class="${cls}" onclick="showModalVariant(${i})">${label}</button>`;
-  }).join('');
+  tabs.innerHTML = '';
+  modalState.variants.forEach((v, i) => {
+    const btn = document.createElement('button');
+    if (i === 0) btn.className = 'original';
+    btn.textContent = (i === 0) ? '元写真' : `${v.id}：${v.title}`;
+    btn.addEventListener('click', () => showModalVariant(i));
+    tabs.appendChild(btn);
+  });
 }
 
 function showModalVariant(idx) {
