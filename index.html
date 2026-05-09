@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>三原駅周辺 現地写真マップ（2026-04-27 踏査）</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+      crossorigin=""/>
+<style>
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0; padding: 0; height: 100%;
+    font-family: "游ゴシック", "Yu Gothic", "Hiragino Sans", sans-serif;
+  }
+  #app { display: flex; flex-direction: column; height: 100vh; }
+  header {
+    background: #1f3a68; color: #fff; padding: 8px 14px;
+    display: flex; align-items: center; gap: 12px;
+  }
+  header h1 { margin: 0; font-size: 15px; font-weight: 600; }
+  header .meta { font-size: 11px; opacity: 0.8; }
+  #toolbar {
+    background: #f4f6fa; padding: 6px 12px;
+    border-bottom: 1px solid #d8dde6;
+    display: flex; flex-wrap: wrap; gap: 6px; align-items: center;
+    font-size: 12px;
+  }
+  #toolbar .label { color: #555; margin-right: 4px; font-weight: 600; }
+  #toolbar label.cat {
+    display: inline-flex; align-items: center; gap: 3px;
+    padding: 2px 8px; border-radius: 12px;
+    background: #fff; border: 1px solid #c7cfdb;
+    cursor: pointer; user-select: none;
+  }
+  #toolbar label.cat:hover { background: #eef2f8; }
+  #toolbar label.cat input { margin: 0; }
+  #toolbar .stats { margin-left: auto; color: #666; font-size: 11px; }
+  #toolbar button {
+    border: 1px solid #c7cfdb; background: #fff;
+    padding: 3px 10px; border-radius: 4px; cursor: pointer; font-size: 11px;
+  }
+  #toolbar button:hover { background: #eef2f8; }
+  #map { flex: 1; }
+  .leaflet-popup-content {
+    margin: 8px 10px; font-size: 12px; line-height: 1.5;
+    width: 260px !important;
+  }
+  .popup-thumb {
+    display: block; width: 240px; height: auto; cursor: pointer;
+    border-radius: 4px; margin-bottom: 6px;
+    transition: opacity 0.15s;
+  }
+  .popup-thumb:hover { opacity: 0.85; }
+  .popup-file { font-weight: 600; color: #1f3a68; }
+  .popup-time { color: #888; font-size: 11px; margin-left: 4px; }
+  .popup-section { margin-top: 4px; }
+  .popup-section .h { color: #555; font-size: 10px; font-weight: 600; }
+  .popup-cats {
+    margin-top: 4px;
+    display: flex; flex-wrap: wrap; gap: 3px;
+  }
+  .popup-cats span {
+    background: #1f3a68; color: #fff;
+    padding: 1px 6px; border-radius: 8px; font-size: 10px;
+  }
+  .popup-acc {
+    display: inline-block;
+    padding: 1px 6px; border-radius: 8px; font-size: 10px;
+    margin-left: 4px;
+  }
+  .acc-confirmed { background: #d4edda; color: #155724; }
+  .acc-inherited { background: #fff3cd; color: #856404; }
+  .acc-interpolated { background: #f8d7da; color: #721c24; }
+  /* 拡大モーダル */
+  #modal {
+    display: none; position: fixed; inset: 0;
+    background: rgba(0,0,0,0.85); z-index: 9999;
+    align-items: center; justify-content: center; flex-direction: column;
+    cursor: zoom-out; padding: 20px;
+  }
+  #modal.show { display: flex; }
+  #modal img {
+    max-width: 95%; max-height: 85%;
+    box-shadow: 0 4px 32px rgba(0,0,0,0.5);
+    border-radius: 4px;
+  }
+  #modal .caption {
+    color: #fff; margin-top: 12px; font-size: 13px;
+    background: rgba(0,0,0,0.5); padding: 6px 14px; border-radius: 4px;
+  }
+  /* カテゴリ色分け */
+  .leaflet-marker-icon.cat-default { filter: hue-rotate(0deg); }
+  /* マーカー(div icon) */
+  .photo-marker {
+    width: 22px; height: 22px;
+    background: #e74c3c; border: 2px solid #fff;
+    border-radius: 50% 50% 50% 0; transform: rotate(-45deg);
+    box-shadow: 0 1px 4px rgba(0,0,0,0.4);
+  }
+  .photo-marker.acc-confirmed   { background: #27ae60; }
+  .photo-marker.acc-inherited   { background: #f39c12; }
+  .photo-marker.acc-interpolated{ background: #e74c3c; }
+  .photo-marker.acc-extrapolated{ background: #c0392b; }
+</style>
+</head>
+<body>
+<div id="app">
+  <header>
+    <h1>三原駅周辺 現地写真マップ</h1>
+    <div class="meta">2026-04-27 踏査・全117枚 / 撮影：青木</div>
+  </header>
+  <div id="toolbar">
+    <span class="label">カテゴリ:</span>
+    <span id="cat-buttons"></span>
+    <button id="all-on">全選択</button>
+    <button id="all-off">全解除</button>
+    <span class="stats" id="stats"></span>
+  </div>
+  <div id="map"></div>
+</div>
+<div id="modal">
+  <img id="modal-img" alt="">
+  <div class="caption" id="modal-caption"></div>
+</div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+        crossorigin=""></script>
+<script>
+const CATEGORIES = ["照明","舗装","サイン","植栽","ストリートファニチャー","史跡","景観阻害物","建築","広場"];
+
+// ベースマップ
+const gsiStd = L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/std/{z}/{x}/{y}.png', {
+  attribution: "<a href='https://maps.gsi.go.jp/development/ichiran.html'>地理院タイル</a>",
+  maxZoom: 19
+});
+const gsiPale = L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
+  attribution: "<a href='https://maps.gsi.go.jp/development/ichiran.html'>地理院タイル</a>",
+  maxZoom: 18
+});
+const osm = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+  maxZoom: 19
+});
+
+const map = L.map('map', {
+  center: [34.3974, 133.0792],
+  zoom: 17,
+  layers: [gsiPale]
+});
+L.control.layers({
+  '地理院タイル(淡色)': gsiPale,
+  '地理院タイル(標準)': gsiStd,
+  'OpenStreetMap': osm
+}, null, {position: 'topright', collapsed: false}).addTo(map);
+
+// データ読み込み
+let allFeatures = [];
+let markers = [];
+const selectedCats = new Set(CATEGORIES);
+
+function makeMarker(f) {
+  const p = f.properties;
+  const accClass = `acc-${p.accuracy}`;
+  const icon = L.divIcon({
+    className: '',
+    html: `<div class="photo-marker ${accClass}"></div>`,
+    iconSize: [22, 22],
+    iconAnchor: [11, 22],
+    popupAnchor: [0, -20]
+  });
+  const m = L.marker([f.geometry.coordinates[1], f.geometry.coordinates[0]], {icon});
+  m.featureProps = p;
+  m.bindPopup(() => buildPopup(p), {maxWidth: 280});
+  return m;
+}
+
+function buildPopup(p) {
+  const accLabel = {
+    confirmed: '辞書一致',
+    inherited: '参照継承',
+    interpolated: '時系列補間',
+    extrapolated: '外挿',
+    fallback: 'フォールバック'
+  }[p.accuracy] || p.accuracy;
+  const cats = p.categories.map(c => `<span>${c}</span>`).join('');
+  return `
+    <img class="popup-thumb" src="${p.thumb}" data-photo="${p.photo}" data-file="${p.file}"
+         onclick="openModal('${p.photo}', '${p.file}', '${p.time}')" />
+    <div><span class="popup-file">${p.file}</span><span class="popup-time">${p.time}</span>
+         <span class="popup-acc acc-${p.accuracy}">${accLabel}</span></div>
+    <div class="popup-section"><span class="h">場所</span><br>${p.place_name || '-'}</div>
+    <div class="popup-section"><span class="h">業務関連ポイント</span><br>${p.business_point || '-'}</div>
+    <div class="popup-section"><span class="h">シミュレーション案</span><br>${p.simulation_idea || '-'}</div>
+    <div class="popup-cats">${cats}</div>
+  `;
+}
+
+function openModal(photo, file, time) {
+  document.getElementById('modal-img').src = photo;
+  document.getElementById('modal-caption').textContent = `${file}（${time}）`;
+  document.getElementById('modal').classList.add('show');
+}
+document.getElementById('modal').addEventListener('click', () => {
+  document.getElementById('modal').classList.remove('show');
+});
+
+function applyFilter() {
+  let visible = 0;
+  markers.forEach(m => {
+    const cats = m.featureProps.categories;
+    const show = cats.length === 0
+      ? selectedCats.has('未分類')
+      : cats.some(c => selectedCats.has(c));
+    if (show) {
+      if (!map.hasLayer(m)) m.addTo(map);
+      visible++;
+    } else {
+      if (map.hasLayer(m)) map.removeLayer(m);
+    }
+  });
+  document.getElementById('stats').textContent = `表示: ${visible} / ${allFeatures.length}`;
+}
+
+function buildCatButtons(catCounts) {
+  const wrap = document.getElementById('cat-buttons');
+  wrap.innerHTML = '';
+  CATEGORIES.forEach(cat => {
+    const count = catCounts[cat] || 0;
+    const lbl = document.createElement('label');
+    lbl.className = 'cat';
+    lbl.innerHTML = `<input type="checkbox" data-cat="${cat}" checked>${cat}<span style="color:#999;font-size:10px;">(${count})</span>`;
+    lbl.querySelector('input').addEventListener('change', e => {
+      if (e.target.checked) selectedCats.add(cat);
+      else selectedCats.delete(cat);
+      applyFilter();
+    });
+    wrap.appendChild(lbl);
+  });
+}
+
+document.getElementById('all-on').addEventListener('click', () => {
+  document.querySelectorAll('#cat-buttons input').forEach(i => {
+    i.checked = true;
+    selectedCats.add(i.dataset.cat);
+  });
+  applyFilter();
+});
+document.getElementById('all-off').addEventListener('click', () => {
+  document.querySelectorAll('#cat-buttons input').forEach(i => {
+    i.checked = false;
+    selectedCats.delete(i.dataset.cat);
+  });
+  applyFilter();
+});
+
+fetch('assets/photos.geojson')
+  .then(r => r.json())
+  .then(gj => {
+    allFeatures = gj.features;
+    const catCounts = {};
+    allFeatures.forEach(f => {
+      f.properties.categories.forEach(c => catCounts[c] = (catCounts[c] || 0) + 1);
+    });
+    buildCatButtons(catCounts);
+    markers = allFeatures.map(f => makeMarker(f));
+    markers.forEach(m => m.addTo(map));
+    document.getElementById('stats').textContent = `表示: ${markers.length} / ${markers.length}`;
+
+    // 範囲フィット
+    const group = L.featureGroup(markers);
+    map.fitBounds(group.getBounds().pad(0.1));
+  })
+  .catch(err => {
+    alert('photos.geojson の読み込みに失敗しました。\nビルドスクリプトを実行してください: python scripts/build_geojson.py\n\n' + err);
+  });
+</script>
+</body>
+</html>

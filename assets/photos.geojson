@@ -1,0 +1,3078 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.0792,
+          34.398
+        ]
+      },
+      "properties": {
+        "file": "IMG_0001.JPG",
+        "time": "14:57:24",
+        "subject": "三原駅構内コンコース。中央通路に「天主台跡 Tenshudai」「三原城 Mihara Castle」と書かれた青地の和風縦バナー2枚と、城跡入口の壁面案内、JR連絡通路。床は白系大判タイル、右側に三原城ジオラマ展示ケース。",
+        "location_text": "三原駅2階南北自由通路（コンコース）。バナー文言と床面の駅名から確定。",
+        "business_point": "駅は来訪者の起点となる視点場。コンコースの和風サイン（青系・縦書き）は小早川氏城跡共通の文化財サイン群と直接整合させる対象。床タイルは劣化感あり。「天主台跡 6:30〜22:00 入場無料」の運用情報も誘導サインに連携可能。",
+        "simulation_idea": "「来訪者がエスカレータを降りた瞬間に三原城跡へ視線が抜ける」シーン。バナーをタコツボ色（DIC305）でリ・デザインし、床面に天主台跡へ向かう導線サイン（ダーク系・夜光式）を埋め込むBefore/After。視点：歩行者目線、昼。",
+        "place_id": "station_concourse",
+        "place_name": "三原駅構内コンコース",
+        "accuracy": "confirmed",
+        "categories": [
+          "舗装",
+          "サイン",
+          "史跡"
+        ],
+        "thumb": "assets/thumbs/IMG_0001.jpg",
+        "photo": "assets/photos/IMG_0001.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.0792,
+          34.398
+        ]
+      },
+      "properties": {
+        "file": "IMG_0002.JPG",
+        "time": "14:57:29",
+        "subject": "三原駅構内コンコース南側。セブンイレブン入口、ご当地ポスター、奥に駅南口の自動ドア。蛍光灯の白色照明、白系大判タイル床。",
+        "location_text": "駅コンコース中央〜南口寄り。セブンの位置から判断。",
+        "business_point": "駅構内照明は明るく中性色。商業掲示物が多くサイン秩序が乱れている。観光案内系と商業系の階層整理が課題。",
+        "simulation_idea": "商業ポスターを集約掲示ボードに整理し、観光・歴史案内バナーをタコツボ色基調で統一する整理案。視点：歩行者主観・昼間。",
+        "place_id": "station_concourse",
+        "place_name": "三原駅構内コンコース",
+        "accuracy": "confirmed",
+        "categories": [
+          "照明",
+          "サイン"
+        ],
+        "thumb": "assets/thumbs/IMG_0002.jpg",
+        "photo": "assets/photos/IMG_0002.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.0792,
+          34.398
+        ]
+      },
+      "properties": {
+        "file": "IMG_0003.JPG",
+        "time": "14:58:02",
+        "subject": "駅コンコース中央。「JR線のりば」「精算所」サイン、三原みはらプリンの売店スタンド、「浜吉」お土産売店、自動ドア越しに駅南口広場が見える。歩行者数名。",
+        "location_text": "駅改札外コンコース、南口寄り。",
+        "business_point": "公共サインと商業サインの混在、自動ドアフレーム上部「自転車降車強調」黄色シートの過剰主張。",
+        "simulation_idea": "自動ドア越しに見える駅前広場と街路灯の見え方をBefore/After化。前景の黄色禁止シートを最小化し、駅前のシンボル（後述の和風キューブ街路灯または洋風街路灯）を主役に。",
+        "place_id": "station_concourse",
+        "place_name": "三原駅構内コンコース",
+        "accuracy": "confirmed",
+        "categories": [
+          "サイン",
+          "景観阻害物"
+        ],
+        "thumb": "assets/thumbs/IMG_0003.jpg",
+        "photo": "assets/photos/IMG_0003.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.0792,
+          34.398
+        ]
+      },
+      "properties": {
+        "file": "IMG_0004.JPG",
+        "time": "14:58:08",
+        "subject": "駅コンコース北側通路。天井から「三原城天主台跡 関屋時間6:30〜22:00」「自動きっぷうりば Tickets」の吊り下げサイン、「駅事務室 Station Office」、左側にお土産売店「もみじ」「たこもみじ」のスタンド、床面に黄色「自転車通行禁止」大型シート。",
+        "location_text": "駅コンコース北口（三原城跡側）寄り。",
+        "business_point": "北側コンコースは三原城跡（駅北＝和ゾーン）への玄関口として最重要視点場。天主台跡サインは観光案内系の総合案内に近い役割。床の黄色シートは景観阻害物候補。",
+        "simulation_idea": "天主台跡サインをタコツボ色＋木目調にしてゾーン入口感を強化。床の黄色シートを撤去または埋設誘導照明に置換するBefore/After。テーマ「和ゾーン入口」。",
+        "place_id": "station_concourse",
+        "place_name": "三原駅構内コンコース",
+        "accuracy": "confirmed",
+        "categories": [
+          "サイン",
+          "史跡",
+          "景観阻害物"
+        ],
+        "thumb": "assets/thumbs/IMG_0004.jpg",
+        "photo": "assets/photos/IMG_0004.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.07925,
+          34.3979
+        ]
+      },
+      "properties": {
+        "file": "IMG_0005.JPG",
+        "time": "14:58:32",
+        "subject": "駅南口屋根下から南向き。前景に3枚並びの観光案内サイン（「三原駅周辺観光案内図」「三原港 500m〜」「バス路線図」）と「お菓子のたこ 休止中」の大型たこオブジェ、奥にタナカ、恵比寿家、瀬戸路の建物群、右側に赤白送電鉄塔。点字ブロック・大判コンクリ平板舗装。",
+        "location_text": "三原駅南口出てすぐ。タナカ・恵比寿家の看板配置から確定。",
+        "business_point": "駅前総合案内サインは設置済（既往ガイドラインの③総合案内サインに該当）。基調色・木目支柱は既往ガイドラインに概ね沿うが、隣の派手な「たこオブジェ」が前景を支配し情報サインの視認性を下げている。送電鉄塔は撤去困難な大型構造物だが景観の主役には不適。",
+        "simulation_idea": "「来訪者が駅を出た瞬間の第一印象」シーン。たこオブジェ撤去または高さ・彩度調整、案内サインを駅前広場の主軸に配置するBefore/After。視点：駅出口主観・昼。",
+        "place_id": "station_south_exit",
+        "place_name": "三原駅南口（屋根下）",
+        "accuracy": "confirmed",
+        "categories": [
+          "サイン",
+          "景観阻害物"
+        ],
+        "thumb": "assets/thumbs/IMG_0005.jpg",
+        "photo": "assets/photos/IMG_0005.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.07925,
+          34.3979
+        ]
+      },
+      "properties": {
+        "file": "IMG_0006.JPG",
+        "time": "14:58:40",
+        "subject": "駅南口庇下から東〜南東方向の駅前広場全景。広場舗装は薄ベージュ系大判タイル、点字ブロック、低い植栽帯、奥にイオン、ルートインらしきビル群、自転車利用者・歩行者数名、駅前モニュメント（黒い柱状サイン）。",
+        "location_text": "駅南口の屋根下、東向き。",
+        "business_point": "駅前広場の床全体構成・既存ベンチ・モニュメント（黒柱）・遠景の商業看板（イオン等）の混在ぶりが俯瞰できる重要ショット。「大型構造物」（駅前広場の中央モニュメント／時計柱）は議事録で撤去候補に挙がる対象の手がかり。",
+        "simulation_idea": "駅前広場の鳥瞰図イメージのベース写真。黒柱モニュメントの除却・リファイン、舗装パターンを和ゾーン色調に再編するAfter案。テーマ「歩行者主体への再編」「駅前刷新」。",
+        "place_id": "station_south_exit",
+        "place_name": "三原駅南口（屋根下）",
+        "accuracy": "confirmed",
+        "categories": [
+          "サイン",
+          "ストリートファニチャー",
+          "景観阻害物",
+          "広場"
+        ],
+        "thumb": "assets/thumbs/IMG_0006.jpg",
+        "photo": "assets/photos/IMG_0006.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.07925,
+          34.3979
+        ]
+      },
+      "properties": {
+        "file": "IMG_0007.JPG",
+        "time": "14:58:44",
+        "subject": "駅南口広場、タナカ薬局／恵比寿家方向。「お菓子のたこ 休止中」オブジェ、隣に「ASTRA DUCK」風のラッピング商品台、自転車に乗った郵便配達員（赤シャツ）、観光案内3面サイン群、奥にタナカ、瀬戸路の建物。",
+        "location_text": "IMG_0005とほぼ同位置・同方向。広場縁から斜めに撮影。",
+        "business_point": "商業オブジェ（たこ／アヒル風）の景観阻害度が高い。観光案内サインは正対視認位置から外されており、商業物との競合により誘導効率が低い。",
+        "simulation_idea": "商業オブジェ整理・観光サインの軸線移設。テーマ「サイン統合」「景観阻害物撤去」。",
+        "place_id": "station_south_exit",
+        "place_name": "三原駅南口（屋根下） ← IMG_0005.JPG",
+        "accuracy": "inherited",
+        "categories": [
+          "サイン",
+          "景観阻害物"
+        ],
+        "thumb": "assets/thumbs/IMG_0007.jpg",
+        "photo": "assets/photos/IMG_0007.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.07925,
+          34.3979
+        ]
+      },
+      "properties": {
+        "file": "IMG_0008.JPG",
+        "time": "14:58:47",
+        "subject": "駅南口の東側、屋根付き歩行者通路の入口。鉄骨ブラックの太い列柱、屋根が水平に伸びる。前方に屋根下に並ぶ歩行者通路、ベンチ的な構造物、奥に植栽帯、街路樹、車道。床はグレー系大判タイル＋ダークグレー目地。",
+        "location_text": "駅南口屋根東端、ペデストリアン的庇下。タクシー／バス降車場側へ続く通路。",
+        "business_point": "既存駅前回廊の屋根構造は重厚な黒鉄骨で、和洋どちらにも振りやすい中性的デザイン。床のグレータイルは内港側の整備済床（後述IMG_0026〜30）と組み合わせ可能。",
+        "simulation_idea": "",
+        "place_id": "station_south_exit",
+        "place_name": "三原駅南口（屋根下）",
+        "accuracy": "confirmed",
+        "categories": [
+          "舗装",
+          "建築"
+        ],
+        "thumb": "assets/thumbs/IMG_0008.jpg",
+        "photo": "assets/photos/IMG_0008.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.0793,
+          34.3976
+        ]
+      },
+      "properties": {
+        "file": "IMG_0009.JPG",
+        "time": "14:59:17",
+        "subject": "駅前広場中央の洋風大型街路灯（5灯吊りの装飾ランタン）と背後に時計塔、噴水池（三角プリズム状の黒花崗石オブジェ）、白御影石ベンチ、ホテルKASA、スティーン（？）建物。",
+        "location_text": "三原駅南口広場の中央モニュメント／噴水周辺。装飾街路灯と時計塔のランドマーク化が確認できる位置。",
+        "business_point": "議事録で議論された「駅前広場の大型照明」の最有力候補。装飾は華美な洋風だが、駅北の和ゾーン・内港の洋ゾーンの中間としては中途半端。R9年度更新が予定されている最優先要素。",
+        "simulation_idea": "現状（装飾洋風街路灯）／和洋接続用の中庸デザイン／駅北寄り和風のオプション、3案夜景レンダリング。撤去後の見通し改善Beforce/After。視点：駅出口主観・夜（ライトアップ想定）。",
+        "place_id": "station_plaza_center",
+        "place_name": "駅前広場中央（噴水・装飾街路灯）",
+        "accuracy": "confirmed",
+        "categories": [
+          "照明",
+          "広場"
+        ],
+        "thumb": "assets/thumbs/IMG_0009.jpg",
+        "photo": "assets/photos/IMG_0009.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.0793,
+          34.3976
+        ]
+      },
+      "properties": {
+        "file": "IMG_0010.JPG",
+        "time": "14:59:25",
+        "subject": "駅前広場の装飾洋風大型街路灯のクローズアップ。鋳鉄製多灯式（5本傘＋頭頂飾り）、ベース脚部に複数灯、奥に時計塔と街並み。",
+        "location_text": "IMG_0009と同じ街路灯の見上げ。",
+        "business_point": "照明刷新の最重要対象。装飾密度が高く、夜間の光配が均一でない可能性。点光源効率（LED化／色温度）も再検討対象。",
+        "simulation_idea": "街路灯デザイン3案比較レンダリング（現状／シンプル和風支柱／ガス灯風中庸）。同位置で昼夜2セット作成。テーマ「街路灯刷新」。",
+        "place_id": "interpolated",
+        "place_name": "駅前広場中央（噴水・装飾街路灯） → 駅前広場中央（噴水・装飾街路灯） の途中",
+        "accuracy": "interpolated",
+        "categories": [
+          "照明"
+        ],
+        "thumb": "assets/thumbs/IMG_0010.jpg",
+        "photo": "assets/photos/IMG_0010.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.0793,
+          34.3976
+        ]
+      },
+      "properties": {
+        "file": "IMG_0011.JPG",
+        "time": "14:59:29",
+        "subject": "駅前広場の装飾街路灯と噴水を別アングル（横位置に近いが回転気味）。柱の鋳鉄装飾、奥にオレンジ系雑居ビル群、イオン看板、HOTEL KASA、噴水の水面と石組。",
+        "location_text": "IMG_0009の少し西側（広場北西角寄り）。",
+        "business_point": "噴水の石組（黒花崗石）は内港側の洋ゾーン素材としても使えるが、現状は装飾街路灯と相俟って統一感を欠く。",
+        "simulation_idea": "噴水を維持しつつ周囲ベンチ・植栽・街路灯を一体再設計するAfter案。",
+        "place_id": "station_plaza_center",
+        "place_name": "駅前広場中央（噴水・装飾街路灯）",
+        "accuracy": "confirmed",
+        "categories": [
+          "照明"
+        ],
+        "thumb": "assets/thumbs/IMG_0011.jpg",
+        "photo": "assets/photos/IMG_0011.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.07925,
+          34.39775
+        ]
+      },
+      "properties": {
+        "file": "IMG_0012.JPG",
+        "time": "15:00:04",
+        "subject": "駅前タクシー乗り場側の「三原やっさ踊り像」（祭装束の女性2体＋蓋付き提灯を掲げる像）。台座は布積み風の自然石組、ステンレス銘板。背後に観光タクシー乗降所、駐車場、街並み、山並み。",
+        "location_text": "駅南口東寄り、タクシー乗り場入口の三角地。",
+        "business_point": "祭礼を表象する公共彫刻。和ゾーンの象徴要素として保存価値あり。台座の自然石積は史跡側石垣との素材的呼応が可能。",
+        "simulation_idea": "「やっさ踊り像」を駅北の三原城歴史公園入口に再配置するか、現位置でライトアップする案。テーマ「和ゾーンのシンボル拡張」。視点：歩行者主観・夜（ライトアップ）。",
+        "place_id": "taxi_stand",
+        "place_name": "駅前タクシー乗り場（駅出口正面）",
+        "accuracy": "confirmed",
+        "categories": [
+          "史跡"
+        ],
+        "thumb": "assets/thumbs/IMG_0012.jpg",
+        "photo": "assets/photos/IMG_0012.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.07965,
+          34.3974
+        ]
+      },
+      "properties": {
+        "file": "IMG_0013.JPG",
+        "time": "15:00:08",
+        "subject": "駅前ロータリー脇のシンボル時計塔（ステンレス支柱に時計と縦長サイン板「もしもしホットライン」風の青地表示、QRコード）、低木植栽、奥にイオン看板、車両、商業ビル群（縦回転気味）。",
+        "location_text": "駅前広場南東隅、時計塔の位置。",
+        "business_point": "時計塔は実用性とシンボル性の両面要素。ステンレス支柱は和洋いずれにも合わせにくい中性的だが、QR/告知の表示主体になっており情報過多。",
+        "simulation_idea": "時計塔を残しつつ案内表示を整理しサイン秩序を回復するAfter案。",
+        "place_id": "station_plaza_southeast",
+        "place_name": "駅前広場南東角（時計塔・地下道入口）",
+        "accuracy": "confirmed",
+        "categories": [],
+        "thumb": "assets/thumbs/IMG_0013.jpg",
+        "photo": "assets/photos/IMG_0013.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.07925,
+          34.3979
+        ]
+      },
+      "properties": {
+        "file": "IMG_0014.JPG",
+        "time": "15:00:14",
+        "subject": "駅南口東側交差点。前景に駅前広場の木目支柱街路灯（4灯式の十字格子吊り）が大きく入る。右にタナカ、ホテル類、左にI Ma To Golf Club・焼肉浜吉、中央分離帯に植栽帯（ツツジの紅）と銅鏡風オーナメント、奥にマリンロード商店街アーケード入口。",
+        "location_text": "駅南口を出てすぐ東向き、駅前広場と帝人通り起点の交差点。",
+        "business_point": "既存街路灯（木目支柱＋黒鋳鉄笠）は装飾洋風（IMG_0009-11）と異なるタイプで、市内に複数の街路灯デザインが混在することが分かる。植栽の手入れ状況、信号柱・標識の集約状況も評価対象。",
+        "simulation_idea": "街路灯デザイン統一案。複数タイプを地区別配色（駅北＝和、駅南＝中庸、内港＝洋）で振り分けるAfter案。テーマ「街路灯刷新」「サイン統合」。",
+        "place_id": "station_south_exit",
+        "place_name": "三原駅南口（屋根下）",
+        "accuracy": "confirmed",
+        "categories": [
+          "照明",
+          "サイン",
+          "植栽"
+        ],
+        "thumb": "assets/thumbs/IMG_0014.jpg",
+        "photo": "assets/photos/IMG_0014.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.0796,
+          34.3973
+        ]
+      },
+      "properties": {
+        "file": "IMG_0015.JPG",
+        "time": "15:00:19",
+        "subject": "IMG_0014と同方向で更に前進したカット。木目支柱十字街路灯と中央分離帯植栽。奥のマリンロード入口アーチ「Marine Road」、車道、白色SUV、ホテル類。",
+        "location_text": "帝人通り起点の信号交差点中央寄り。",
+        "business_point": "既整備帝人通りの起点ビュー。中央分離帯の植栽メンテ／街路灯／信号柱の集約状況を観察。",
+        "simulation_idea": "帝人通り起点を「メイン軸（中央ロード）への分岐点」として再演出するAfter案。テーマ「軸線分岐の明示」。",
+        "place_id": "teijin_dori_start",
+        "place_name": "帝人通り起点（信号交差点）",
+        "accuracy": "confirmed",
+        "categories": [
+          "照明",
+          "植栽"
+        ],
+        "thumb": "assets/thumbs/IMG_0015.jpg",
+        "photo": "assets/photos/IMG_0015.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.0799,
+          34.3975
+        ]
+      },
+      "properties": {
+        "file": "IMG_0016.JPG",
+        "time": "15:02:13",
+        "subject": "駅東口（北東口？）バス降車場側からのロータリー俯瞰。屋根付き歩行者通路、ロータリー車道のゼブラ、左奥にROUTE INN、右に三原市立中央図書館（？）／市民ギャラリー入口表示の建物（外装パネル化粧）、低木植栽、自販機、奥に山並み。",
+        "location_text": "駅東口側、もしくは南東サイドのバス降車場。建物外壁の「三原市総合福祉センター」「みはら市民大学」「市民ギャラリー」表記から南東出口の市役所複合施設前と推定。",
+        "business_point": "駅前ロータリーの裏側。市民施設の集積エリアで、施設サインの整合・歩行者動線の見せ方が課題。",
+        "simulation_idea": "市民施設群の入口広場を「文化交流の前庭」として再構成するAfter案。",
+        "place_id": "station_east_bus",
+        "place_name": "駅東口バス降車ホーム",
+        "accuracy": "confirmed",
+        "categories": [
+          "サイン",
+          "広場"
+        ],
+        "thumb": "assets/thumbs/IMG_0016.jpg",
+        "photo": "assets/photos/IMG_0016.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.0792,
+          34.3982
+        ]
+      },
+      "properties": {
+        "file": "IMG_0017.JPG",
+        "time": "15:02:18",
+        "subject": "駅前広場（北口側？）の和風キューブ街路灯（木目支柱に金網状のキューブ笠、銅色）。前景に大樹と低木花壇（白い花）、奥にビル群と「HOTEL R」風建物。",
+        "location_text": "駅北側ロータリー外周、街路樹列の脇（縦回転気味の写真）。",
+        "business_point": "キューブ笠×木目支柱の街路灯は、駅北＝和ゾーンの代表アイテムとして再展開しやすい。三原城歴史公園との素材呼応性が高い。LED化と色温度（電球色）への更新で和ゾーンのシグニチャー照明に昇格可能。",
+        "simulation_idea": "この街路灯デザインを和ゾーン共通仕様に格上げ、中央ロード／駅前広場への展開Before/After。視点：夜・歩行者主観。テーマ「街路灯刷新」「和ゾーン統一」。最優先シミュレーション対象。",
+        "place_id": "station_north_rotary",
+        "place_name": "駅北側ロータリー",
+        "accuracy": "confirmed",
+        "categories": [
+          "照明",
+          "史跡"
+        ],
+        "thumb": "assets/thumbs/IMG_0017.jpg",
+        "photo": "assets/photos/IMG_0017.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.07965,
+          34.3974
+        ]
+      },
+      "properties": {
+        "file": "IMG_0018.JPG",
+        "time": "15:02:43",
+        "subject": "駅前ロータリーから三原国際ホテル（青地白花弁ロゴ）方向。屋根付き歩行者通路2連、植栽島（ツツジ）、奥に三原国際ホテル、サンシープラザ（？）、街路樹、自家用車。",
+        "location_text": "駅東口〜南東口寄りのバス降車場ホーム。",
+        "business_point": "ロータリー全体の植栽量・屋根構造の重厚な黒色・ホテル外観の青色の組合せが現状の「駅前色彩」の主要パレット。",
+        "simulation_idea": "駅前広場の色彩計画提示用。和ゾーンアクセント（タコツボ色系）を一部に挿入するAfter案。",
+        "place_id": "station_plaza_southeast",
+        "place_name": "駅前広場南東角（時計塔・地下道入口）",
+        "accuracy": "confirmed",
+        "categories": [
+          "植栽",
+          "建築",
+          "広場"
+        ],
+        "thumb": "assets/thumbs/IMG_0018.jpg",
+        "photo": "assets/photos/IMG_0018.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.0799,
+          34.3975
+        ]
+      },
+      "properties": {
+        "file": "IMG_0019.JPG",
+        "time": "15:02:48",
+        "subject": "駅前ロータリーの屋根付き歩行者通路（2連／3連）。屋根は薄い片流れ、列柱は黒鉄骨。奥にROUTE INN、赤白送電鉄塔、三原国際ホテル、街路樹、円形植栽（白花）。中央分離島の植栽。",
+        "location_text": "駅東口バス降車ホーム南端。",
+        "business_point": "既存屋根付き通路の構造解像度確認。屋根色（鉄錆風ダーク）と街路樹の取り合いはコントロールされているが、全体としてやや無機質。",
+        "simulation_idea": "既存屋根を活かしつつ、サインや夜間照明を組み込むAfter案。",
+        "place_id": "station_east_bus",
+        "place_name": "駅東口バス降車ホーム",
+        "accuracy": "confirmed",
+        "categories": [
+          "植栽",
+          "建築"
+        ],
+        "thumb": "assets/thumbs/IMG_0019.jpg",
+        "photo": "assets/photos/IMG_0019.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.0799,
+          34.3975
+        ]
+      },
+      "properties": {
+        "file": "IMG_0020.JPG",
+        "time": "15:03:10",
+        "subject": "駅前北側バス停・タクシー乗り場屋根付きホーム。屋根の片流れと黒列柱、ホーム番号「4」表示、奥に植栽帯（ツツジの紅）、街路樹、雑居ビル、ベンチ。歩行者・小児。",
+        "location_text": "駅東口バス乗り場4番ホーム前。",
+        "business_point": "バス乗り場の屋根・サイン・ベンチの統一度を確認。ホーム番号サインの視認性は良好。",
+        "simulation_idea": "バス乗り場ホームのサイン統一・夜間視認性向上のAfter案。",
+        "place_id": "station_east_bus",
+        "place_name": "駅東口バス降車ホーム",
+        "accuracy": "confirmed",
+        "categories": [
+          "サイン",
+          "ストリートファニチャー",
+          "建築"
+        ],
+        "thumb": "assets/thumbs/IMG_0020.jpg",
+        "photo": "assets/photos/IMG_0020.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.07965,
+          34.3974
+        ]
+      },
+      "properties": {
+        "file": "IMG_0021.JPG",
+        "time": "15:03:15",
+        "subject": "駅東〜南東方向のロータリー外周。前景にホテルROUTE INN（黒外装）、左に赤白送電鉄塔、右に三原国際ホテル（白＋青ロゴ）、道路反対側にみはら市民大学・市民ギャラリー、信号機、ロータリー出口の屋根付き廊下と「進入禁止」案内板。",
+        "location_text": "ロータリー南東角の信号交差点付近。",
+        "business_point": "駅前ロータリーから内港方向（南）への動線分岐点。ROUTE INNの黒色高層棟と赤白送電鉄塔は対象エリアの「重い背景」であり、デザインコードでは対峙しないコントロール（前景の整理で目立たせない、あるいは背景化）が必要。",
+        "simulation_idea": "前景の歩行者空間を整え、背景の鉄塔・ホテルを目立たせない俯瞰After案。",
+        "place_id": "station_plaza_southeast",
+        "place_name": "駅前広場南東角（時計塔・地下道入口）",
+        "accuracy": "confirmed",
+        "categories": [
+          "広場"
+        ],
+        "thumb": "assets/thumbs/IMG_0021.jpg",
+        "photo": "assets/photos/IMG_0021.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.07925,
+          34.3966
+        ]
+      },
+      "properties": {
+        "file": "IMG_0022.JPG",
+        "time": "15:03:56",
+        "subject": "ロータリー南側道路、ROUTE INN下の交差点。道路反対側に「P」立体駐車場、ガラス張り市民ギャラリー風の建物、奥に山。歩道のグレータイルとL型側溝。黄色軽自動車。",
+        "location_text": "ロータリー南口を出た中央ロード入口付近。",
+        "business_point": "ガラス張り低層建物（市民ギャラリー）は内港側の洋ゾーン的な現代意匠で、中央ロード沿いの貴重な現代建築要素。",
+        "simulation_idea": "中央ロードの起点演出として、市民ギャラリーをアンカーに位置づけるAfter案。",
+        "place_id": "pearcity_central_north",
+        "place_name": "ペアシティ中央ロード北口（起点）",
+        "accuracy": "confirmed",
+        "categories": [
+          "建築"
+        ],
+        "thumb": "assets/thumbs/IMG_0022.jpg",
+        "photo": "assets/photos/IMG_0022.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.0793,
+          34.3969
+        ]
+      },
+      "properties": {
+        "file": "IMG_0023.JPG",
+        "time": "15:04:19",
+        "subject": "ろうきん（労金）三原支店の入口前から南方向。柱状の道路サイン「↑三原港 230m / →三原城本丸中門跡 120m / ←三原城船入櫓跡入口・石垣」（赤茶ベース＋白文字、ピクト付き）、ROUTE INN、立体駐車場。",
+        "location_text": "ろうきん前歩道、駅南東150m地点。",
+        "business_point": "既往ガイドラインに準拠した街なか誘導サインの実装例（赤茶＝タコツボ色系、ピクト併用、距離表示、英語ヘボン式併記）。設置方向の整理が機能している良例。一方で支柱・板面の経年劣化評価が必要。",
+        "simulation_idea": "この誘導サインを中央ロード／本町西国街道地区へ系統展開するAfter案。テーマ「サイン統合」「文化財誘導」。",
+        "place_id": "roukin_front",
+        "place_name": "ろうきん前歩道",
+        "accuracy": "confirmed",
+        "categories": [
+          "サイン"
+        ],
+        "thumb": "assets/thumbs/IMG_0023.jpg",
+        "photo": "assets/photos/IMG_0023.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.07925,
+          34.3966
+        ]
+      },
+      "properties": {
+        "file": "IMG_0024.JPG",
+        "time": "15:04:32",
+        "subject": "ろうきん前の中央ロード入口側歩道。点字ブロック、舗装パターン（薄い大判タイル＋赤茶系帯）、車道、立体駐車場「P」、街路樹（若木）、奥に階段橋風の歩道橋、街路灯（4mポールトップ式）、車道側ガードフェンス。",
+        "location_text": "中央ロード起点北寄り、ペアシティ中央ロード入口手前。",
+        "business_point": "中央ロード沿いの現代的歩道整備区間。舗装の色帯（茶系）は既往の景観コードと整合可能。街路灯は機能型ポール（脱・装飾系）。",
+        "simulation_idea": "中央ロード沿いの舗装・植栽・街路灯3点セットを「メイン軸線」のシグニチャーとして再定義するAfter案。テーマ「メイン軸の明示」。",
+        "place_id": "pearcity_central_north",
+        "place_name": "ペアシティ中央ロード北口（起点）",
+        "accuracy": "confirmed",
+        "categories": [
+          "照明",
+          "舗装"
+        ],
+        "thumb": "assets/thumbs/IMG_0024.jpg",
+        "photo": "assets/photos/IMG_0024.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.07995,
+          34.39725
+        ]
+      },
+      "properties": {
+        "file": "IMG_0025.JPG",
+        "time": "15:04:35",
+        "subject": "ガラス張り低層建物（市民ギャラリー？）と立体駐車場「P」、横断歩道、ガードフェンス。歩道はグレー系大判タイル。",
+        "location_text": "駅南東のロータリー外側、市民ギャラリー前。",
+        "business_point": "現代建築群と既存歩行者空間の関係性整理。",
+        "simulation_idea": "市民施設エリアの広場感統一案。",
+        "place_id": "sanshee_plaza",
+        "place_name": "サン・シープラザ前広場（市民ギャラリー）",
+        "accuracy": "confirmed",
+        "categories": [],
+        "thumb": "assets/thumbs/IMG_0025.jpg",
+        "photo": "assets/photos/IMG_0025.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.07995,
+          34.39725
+        ]
+      },
+      "properties": {
+        "file": "IMG_0026.JPG",
+        "time": "15:05:04",
+        "subject": "サン・シープラザ南側の人工地盤広場。半円形の白いシェルター屋根（メッシュ天井）、ベンチ、芝生、街路樹（若木）、奥にロータリー方向の歩行者。",
+        "location_text": "駅南東サン・シープラザ＆みはら市民大学前のオープンスペース。",
+        "business_point": "既整備の現代型ストリートファニチャー（白色メタルメッシュシェルター＋ベンチ）。内港側の洋ゾーンに連続するデザイン語彙の参考例。",
+        "simulation_idea": "このシェルター意匠を内港側に連続展開するAfter案。テーマ「洋ゾーン展開」。",
+        "place_id": "sanshee_plaza",
+        "place_name": "サン・シープラザ前広場（市民ギャラリー）",
+        "accuracy": "confirmed",
+        "categories": [
+          "ストリートファニチャー"
+        ],
+        "thumb": "assets/thumbs/IMG_0026.jpg",
+        "photo": "assets/photos/IMG_0026.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.07995,
+          34.39725
+        ]
+      },
+      "properties": {
+        "file": "IMG_0027.JPG",
+        "time": "15:05:18",
+        "subject": "同広場のシェルター下のグレー木製ベンチ（背もたれ＋座面の2段板）。芝生、奥にレストラン・カフェ風の店舗、椅子・テーブル。",
+        "location_text": "IMG_0026と同地点、ベンチクローズアップ。",
+        "business_point": "木製ベンチのディテール。素材は経年で銀化したグレー、腐朽や色ムラあり。座面構造は2段板でシンプル。屋外耐用年数の検証が必要。",
+        "simulation_idea": "ベンチを和ゾーン用木製・洋ゾーン用金属脚＋木座面に振り分けるデザインカタログ整備。",
+        "place_id": "sanshee_plaza",
+        "place_name": "サン・シープラザ前広場（市民ギャラリー） ← IMG_0026.JPG",
+        "accuracy": "inherited",
+        "categories": [
+          "ストリートファニチャー"
+        ],
+        "thumb": "assets/thumbs/IMG_0027.jpg",
+        "photo": "assets/photos/IMG_0027.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.07995,
+          34.39725
+        ]
+      },
+      "properties": {
+        "file": "IMG_0028.JPG",
+        "time": "15:05:28",
+        "subject": "同広場の屋外カフェ（オープンテラス）。ガラス張り店舗、屋根付き軒下、メタルテーブル＋椅子、座って読書する高齢男性、奥に植栽帯と隣のビル。",
+        "location_text": "市民ギャラリー or 隣接カフェのテラス。",
+        "business_point": "「歩行者が滞留する」具体シーン。洋ゾーンの目標像のリファレンス。",
+        "simulation_idea": "内港側のリファレンス画像として活用。テーマ「洋ゾーンの滞留空間」。",
+        "place_id": "sanshee_plaza",
+        "place_name": "サン・シープラザ前広場（市民ギャラリー）",
+        "accuracy": "confirmed",
+        "categories": [],
+        "thumb": "assets/thumbs/IMG_0028.jpg",
+        "photo": "assets/photos/IMG_0028.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.07995,
+          34.39725
+        ]
+      },
+      "properties": {
+        "file": "IMG_0029.JPG",
+        "time": "15:05:58",
+        "subject": "ガラス張り建物前の歩行者専用通路。三角形舗装パターン（グレー＋ダーク帯のレンガ風）、奥にショッピング・カフェの店舗群、屋根付きアーケード庇、自転車。",
+        "location_text": "サン・シープラザ南側、内港方向への小路。",
+        "business_point": "三角形舗装パターンは現代的で、和ゾーンの伝統格子柄や内港の波形パターンとは対比的。舗装パターンのカタログ化素材。",
+        "simulation_idea": "パターンの選択肢比較レンダリング。",
+        "place_id": "sanshee_plaza",
+        "place_name": "サン・シープラザ前広場（市民ギャラリー）",
+        "accuracy": "confirmed",
+        "categories": [
+          "舗装"
+        ],
+        "thumb": "assets/thumbs/IMG_0029.jpg",
+        "photo": "assets/photos/IMG_0029.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.07995,
+          34.39725
+        ]
+      },
+      "properties": {
+        "file": "IMG_0030.JPG",
+        "time": "15:06:06",
+        "subject": "同小路のクローズアップ。三角形・円形を組み合わせた舗装パターン、左に植栽（低木刈り込み）、右に店舗ガラス、奥に時計、自転車。三角コーン1基。",
+        "location_text": "IMG_0029と同位置、別アングル。",
+        "business_point": "舗装パターンの詳細。成形コンクリブロックの目地寸法・色対比が観察可能。",
+        "simulation_idea": "舗装パターンの素材展開図に組み込む。",
+        "place_id": "sanshee_plaza",
+        "place_name": "サン・シープラザ前広場（市民ギャラリー） ← IMG_0029.JPG",
+        "accuracy": "inherited",
+        "categories": [
+          "舗装"
+        ],
+        "thumb": "assets/thumbs/IMG_0030.jpg",
+        "photo": "assets/photos/IMG_0030.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.07995,
+          34.39725
+        ]
+      },
+      "properties": {
+        "file": "IMG_0031.JPG",
+        "time": "15:06:26",
+        "subject": "ガラス張り建物の屋根下（庇下）から、芝生・舗装の広場、JRの高架駅舎（？）、奥に山並み、椅子（メタル）、舗装は半円弧のレンガ＋大判コンクリ。",
+        "location_text": "サン・シープラザ南側の舗装広場、JRレール側を望む。",
+        "business_point": "既整備の広場舗装の典型サンプル。芝生＋舗装の比率配分の参考に。",
+        "simulation_idea": "内港側の整備事例として、広場舗装の連続性を示すAfter案。",
+        "place_id": "sanshee_plaza",
+        "place_name": "サン・シープラザ前広場（市民ギャラリー）",
+        "accuracy": "confirmed",
+        "categories": [
+          "舗装",
+          "広場"
+        ],
+        "thumb": "assets/thumbs/IMG_0031.jpg",
+        "photo": "assets/photos/IMG_0031.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.0793,
+          34.3969
+        ]
+      },
+      "properties": {
+        "file": "IMG_0032.JPG",
+        "time": "15:07:05",
+        "subject": "中央ロード沿いの歩道。歩行者（高齢男性／シルバーカー）、舗装は赤茶帯＋グレー大判、植栽帯（街路樹若木）、ガードフェンス（黒）、車道側標識「P→」「禁止」、奥にビル群と山。",
+        "location_text": "中央ロード北寄り、ろうきん〜ペアシティ間。",
+        "business_point": "既整備の歩道舗装の標準セット（赤茶帯＋グレー大判＋点字ブロック）。植栽帯の街路樹はまだ若木で景観効果は限定的。",
+        "simulation_idea": "街路樹成熟後の景観シミュレーション（10〜20年後）。テーマ「経年成熟の予測ビジュアル」。",
+        "place_id": "roukin_front",
+        "place_name": "ろうきん前歩道",
+        "accuracy": "confirmed",
+        "categories": [
+          "舗装",
+          "植栽"
+        ],
+        "thumb": "assets/thumbs/IMG_0032.jpg",
+        "photo": "assets/photos/IMG_0032.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.0792,
+          34.396
+        ]
+      },
+      "properties": {
+        "file": "IMG_0033.JPG",
+        "time": "15:07:21",
+        "subject": "IMG_0032より少し進んだ同じ歩道。シルバーカーの男性、奥にW（ワシントンホテル？）、立体駐車場「P」、信号機、街路灯（4mポールトップ）、雑居ビル群。",
+        "location_text": "中央ロード沿い、ワシントンホテル接近地点。",
+        "business_point": "中央ロードの「直線的なメイン軸」感。沿道のホテル・商業看板の高さ・色彩のばらつきが景観の主課題。",
+        "simulation_idea": "沿道建築のファサード・看板色のコードを示すAfter案。テーマ「沿道色彩統一」。",
+        "place_id": "central_road_middle",
+        "place_name": "中央ロード中央（ワシントンホテル付近）",
+        "accuracy": "confirmed",
+        "categories": [
+          "サイン",
+          "建築"
+        ],
+        "thumb": "assets/thumbs/IMG_0033.jpg",
+        "photo": "assets/photos/IMG_0033.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.0792,
+          34.396
+        ]
+      },
+      "properties": {
+        "file": "IMG_0034.JPG",
+        "time": "15:07:38",
+        "subject": "街路灯（黒鉄骨支柱、シンプルな水平アーム＋シェード）。背後のビルは「個別教室のトライ」（青看板）の入る雑居ビル。「進入禁止」「駐車禁止」交通標識2枚。回転気味の写真。",
+        "location_text": "中央ロード沿いの歩道、街路灯クローズアップ。",
+        "business_point": "中央ロードの既存街路灯。装飾性ゼロの機能型。和洋いずれの方向にも振りやすい中性デザイン。",
+        "simulation_idea": "この支柱を活かしつつシェード・色を地区別に振り分けるAfter案。テーマ「街路灯刷新」。",
+        "place_id": "central_road_middle",
+        "place_name": "中央ロード中央（ワシントンホテル付近）",
+        "accuracy": "confirmed",
+        "categories": [
+          "照明"
+        ],
+        "thumb": "assets/thumbs/IMG_0034.jpg",
+        "photo": "assets/photos/IMG_0034.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.07925,
+          34.3966
+        ]
+      },
+      "properties": {
+        "file": "IMG_0035.JPG",
+        "time": "15:08:30",
+        "subject": "中央ロード沿いの裏通り（ペアシティ商店街内部？）。「店舗入口 1F」の緑看板、低層商店、若い女性歩行者、車道は2車線アスファルト。「White Creator Esthetic & Beauty」店舗、商店街看板。",
+        "location_text": "ペアシティ商店街〜中央ロード間の小路。",
+        "business_point": "商店街内部の生活感ある通り。サインのスケール・取付高は商業基準で、本業務の対象（公共サイン）とは別系統。",
+        "simulation_idea": "商店街の生活感を残しつつ、公共サインを最小介入で整理するAfter案。",
+        "place_id": "pearcity_central_north",
+        "place_name": "ペアシティ中央ロード北口（起点）",
+        "accuracy": "confirmed",
+        "categories": [
+          "サイン"
+        ],
+        "thumb": "assets/thumbs/IMG_0035.jpg",
+        "photo": "assets/photos/IMG_0035.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.07925,
+          34.3966
+        ]
+      },
+      "properties": {
+        "file": "IMG_0036.JPG",
+        "time": "15:08:50",
+        "subject": "ペアシティ中央ロード（Pair City Center Road）の道路名標柱。白柱＋丸い銘板（カタカナ・英語・平仮名併記「ペアシティ中央ロード／Pair City Center Road／ぺあしてぃちゅうおうろーど」）。背後にWASHINGTON（ホテル）、商店街看板、ガードフェンス。",
+        "location_text": "ペアシティ中央ロード起点（北側）。",
+        "business_point": "本業務のメイン軸線「ペアシティ中央ロード」を象徴する道路名サイン。3言語表記（カタカナ／英／ローマ字読み）はガイドラインの「英語併記＋ヘボン式」とは異なる独自仕様。整合性検討の重要素材。",
+        "simulation_idea": "道路名サインのデザイン更新案（タコツボ色＋ヘボン式併記）。テーマ「メイン軸の起点演出」「サイン統合」。最優先シミュレーション対象。",
+        "place_id": "pearcity_central_north",
+        "place_name": "ペアシティ中央ロード北口（起点）",
+        "accuracy": "confirmed",
+        "categories": [
+          "サイン"
+        ],
+        "thumb": "assets/thumbs/IMG_0036.jpg",
+        "photo": "assets/photos/IMG_0036.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.07925,
+          34.3966
+        ]
+      },
+      "properties": {
+        "file": "IMG_0037.JPG",
+        "time": "15:08:54",
+        "subject": "中央ロード起点付近の交差点。雑居ビル（中本デンタルクリニック青看板）、電柱と複雑な架線、信号機、奥にビル群と山、横断歩道、ガードフェンス。",
+        "location_text": "ペアシティ中央ロード起点付近の交差点。",
+        "business_point": "電柱・架線の景観阻害が顕著。中央ロードを軸線としてデザインする上で、無電柱化／架線整理は中長期課題。",
+        "simulation_idea": "無電柱化Before/After。視点：歩行者主観・歩道側。テーマ「歩行者主体への再編」。",
+        "place_id": "pearcity_central_north",
+        "place_name": "ペアシティ中央ロード北口（起点）",
+        "accuracy": "confirmed",
+        "categories": [
+          "景観阻害物"
+        ],
+        "thumb": "assets/thumbs/IMG_0037.jpg",
+        "photo": "assets/photos/IMG_0037.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.07925,
+          34.39535
+        ]
+      },
+      "properties": {
+        "file": "IMG_0038.JPG",
+        "time": "15:09:02",
+        "subject": "中央ロード南寄りから内港方向。ヤシの並木（フェニックス）、案内サイン（青地）「三原リーション・スクエア」（？）、車道、白いトラック、海方向の山並み、低い建物群、HOTEL系建物。",
+        "location_text": "中央ロード南端、内港接続部に近い地点。フェニックス並木の出現点。",
+        "business_point": "ヤシ並木は内港＝洋ゾーンの強いシグナル。中央ロードから内港への接続が景観的に明示されている。サイン青色基調は「MIHARA ディープブルー」と整合し得る。",
+        "simulation_idea": "中央ロード南端〜内港の「和洋接続のクライマックス」シーン。テーマ「和洋接続」「軸線終点演出」。最優先シミュレーション対象。",
+        "place_id": "central_road_south_end",
+        "place_name": "中央ロード南端（フェニックス並木）",
+        "accuracy": "confirmed",
+        "categories": [
+          "サイン",
+          "植栽"
+        ],
+        "thumb": "assets/thumbs/IMG_0038.jpg",
+        "photo": "assets/photos/IMG_0038.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.0793,
+          34.39515
+        ]
+      },
+      "properties": {
+        "file": "IMG_0039.JPG",
+        "time": "15:09:38",
+        "subject": "内港交差点付近。茶色雑居ビル、ヤシの木1本、中央分離帯（つつじ植栽）、奥にヤッサ亭風の青白テント屋根、Mihara Port入口の青案内サイン、自転車利用者、バイク。",
+        "location_text": "内港北側の信号交差点（マリンロード東端付近）。",
+        "business_point": "内港アプローチの「テント屋根」（青と白の縞模様）は仮設感強く、本業務の景観阻害物候補。",
+        "simulation_idea": "テント屋根の常設・撤去・更新3案比較。テーマ「内港アプローチ刷新」。",
+        "place_id": "inner_port_intersection",
+        "place_name": "三原内港 北側交差点（Mihara Port案内）",
+        "accuracy": "confirmed",
+        "categories": [
+          "景観阻害物",
+          "建築"
+        ],
+        "thumb": "assets/thumbs/IMG_0039.jpg",
+        "photo": "assets/photos/IMG_0039.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.0793,
+          34.39515
+        ]
+      },
+      "properties": {
+        "file": "IMG_0040.JPG",
+        "time": "15:10:14",
+        "subject": "内港交差点上部の広域案内サイン（青地）。「←呉 70km Kure / 竹原 26km Takehara」「→佐木島パラダイスルート S3-9」「↓尾道 Onomichi 12km」、「さきしま海道」縦看板、赤白送電鉄塔、白い建物。",
+        "location_text": "内港北角の信号交差点。",
+        "business_point": "観光・サイクリング系の広域案内サイン群（青地・自転車ピクト付）。既往ガイドラインの車両系①誘導サインに該当。しまなみ海道方面の広域ネットワークサインの三原起点として重要。",
+        "simulation_idea": "広域サインを内港の「世界とつながる港」演出として活用するAfter案。テーマ「広域接続の表現」。",
+        "place_id": "inner_port_intersection",
+        "place_name": "三原内港 北側交差点（Mihara Port案内）",
+        "accuracy": "confirmed",
+        "categories": [
+          "サイン"
+        ],
+        "thumb": "assets/thumbs/IMG_0040.jpg",
+        "photo": "assets/photos/IMG_0040.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.0793,
+          34.39515
+        ]
+      },
+      "properties": {
+        "file": "IMG_0041.JPG",
+        "time": "15:10:17",
+        "subject": "内港北側の三原内港東公園入口付近の小さな広場。ヤシの木数本、車道、青地誘導サイン板、青白テント屋根（露店風）、奥に山と山頂のテレビ塔（？）、トラック。",
+        "location_text": "内港北アプローチ、東公園入口手前。",
+        "business_point": "ヤシの並木と青白テントが内港の現状の南国系ビジュアル。本業務での扱い（強化／更新／統一）の判断要素。",
+        "simulation_idea": "内港の南国系ビジュアル整理案。",
+        "place_id": "inner_port_intersection",
+        "place_name": "三原内港 北側交差点（Mihara Port案内）",
+        "accuracy": "confirmed",
+        "categories": [
+          "植栽"
+        ],
+        "thumb": "assets/thumbs/IMG_0041.jpg",
+        "photo": "assets/photos/IMG_0041.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.0793,
+          34.39515
+        ]
+      },
+      "properties": {
+        "file": "IMG_0042.JPG",
+        "time": "15:10:21",
+        "subject": "内港交差点。ヤシの木1本、ベージュ集合住宅、軽トラ（白）、奥に青白テント屋根とMihara Portの茶色案内サイン、信号機、ガードフェンス、自転車利用者。",
+        "location_text": "内港交差点北側、Mihara Port案内サイン直前。",
+        "business_point": "「Mihara Port」誘導サイン（茶色＝タコツボ色系）の設置位置確認。",
+        "simulation_idea": "内港誘導サインのライティング案（夜間視認性向上）。",
+        "place_id": "inner_port_intersection",
+        "place_name": "三原内港 北側交差点（Mihara Port案内）",
+        "accuracy": "confirmed",
+        "categories": [
+          "サイン"
+        ],
+        "thumb": "assets/thumbs/IMG_0042.jpg",
+        "photo": "assets/photos/IMG_0042.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.0793,
+          34.39515
+        ]
+      },
+      "properties": {
+        "file": "IMG_0043.JPG",
+        "time": "15:10:43",
+        "subject": "広域サイン（自転車道含む）のクローズアップ。青地白文字「呉 70Km Kure ↑／竹原 26Km Takehara」、緑「S3-9 佐木島パラダイスルート」、青「尾道 Onomichi 12Km」、青縦看板「さきしま海道」、赤白送電鉄塔。",
+        "location_text": "内港交差点北角、IMG_0040と同地点。",
+        "business_point": "しまなみ／さきしま海道のサイクリング系サインは青基調（ブルーラインルール）で全国共通仕様。本業務の市内サイン（タコツボ色基調）とは別系統だが、内港側では両者が並立する。",
+        "simulation_idea": "観光サインとサイクリング・サインの並立整理ルール提示。",
+        "place_id": "inner_port_intersection",
+        "place_name": "三原内港 北側交差点（Mihara Port案内）",
+        "accuracy": "confirmed",
+        "categories": [
+          "サイン"
+        ],
+        "thumb": "assets/thumbs/IMG_0043.jpg",
+        "photo": "assets/photos/IMG_0043.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.0793,
+          34.3947
+        ]
+      },
+      "properties": {
+        "file": "IMG_0044.JPG",
+        "time": "15:11:19",
+        "subject": "三原内港の船入口（フェリー乗船斜路）。赤い鉄製ゲート（車道）、奥に青く穏やかな海面、対岸の島（佐木島？）、海上の小型船、奥に山並み、白看板（運航時刻表）。",
+        "location_text": "三原内港のフェリー船入斜路。",
+        "business_point": "内港のメインビュー。海・島・山のシーンが対象エリア最南端で得られる景観の白眉。本業務のラスト・シーン候補。",
+        "simulation_idea": "駅から港までの軸線終点として、夕景・夜景の演出（海面ライトアップ／船舶照明連動）。テーマ「終点クライマックス」。最優先シミュレーション対象。",
+        "place_id": "inner_port_ramp",
+        "place_name": "三原内港 船入斜路",
+        "accuracy": "confirmed",
+        "categories": [],
+        "thumb": "assets/thumbs/IMG_0044.jpg",
+        "photo": "assets/photos/IMG_0044.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.07975,
+          34.39505
+        ]
+      },
+      "properties": {
+        "file": "IMG_0045.JPG",
+        "time": "15:11:22",
+        "subject": "内港歩行者通路上から。コンクリの胸壁、自転車駐輪場（屋根付き）、観光案内マップ（青）、看板「ご注意」、奥に内港のビル群、ヤシ、車道、土産物店。",
+        "location_text": "内港東公園入口、駐輪場前。",
+        "business_point": "コンクリ胸壁・駐輪場の屋根は機能優先で景観性低い。内港側の「素朴さ」と「観光地化」の境目。",
+        "simulation_idea": "駐輪場屋根のデザイン更新（洋ゾーン仕様）After案。",
+        "place_id": "inner_port_east_park",
+        "place_name": "内港東公園（興安丸プロペラ）",
+        "accuracy": "confirmed",
+        "categories": [
+          "建築"
+        ],
+        "thumb": "assets/thumbs/IMG_0045.jpg",
+        "photo": "assets/photos/IMG_0045.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.07895,
+          34.39515
+        ]
+      },
+      "properties": {
+        "file": "IMG_0046.JPG",
+        "time": "15:11:31",
+        "subject": "内港のヤッサ亭風アーケード（黄＋青の縞テント屋根の連続）。下の歩道は明るく、点字ブロック、左に施設の壁面・配管、右に青い柵、奥にCenter Hotel（？）の白タイル建物。",
+        "location_text": "内港西側のフェリー乗船券売場棟前のアーケード（青＋黄縞テント）。",
+        "business_point": "特徴的な縞テント屋根。内港のシグニチャーだが、繰り返しパターンが派手で景観統一には課題。本業務の改善候補。",
+        "simulation_idea": "テント屋根の更新案（モノトーン／タコツボ色／白＋木組）。テーマ「内港アーケード刷新」。",
+        "place_id": "inner_port_west_arcade",
+        "place_name": "内港西側アーケード（ヤッサ亭・乗船券売場）",
+        "accuracy": "confirmed",
+        "categories": [
+          "建築"
+        ],
+        "thumb": "assets/thumbs/IMG_0046.jpg",
+        "photo": "assets/photos/IMG_0046.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.0793,
+          34.39515
+        ]
+      },
+      "properties": {
+        "file": "IMG_0047.JPG",
+        "time": "15:11:59",
+        "subject": "内港から駅方向へ戻る車道。赤白送電鉄塔の足元、ラーメン店「神龍楽座」（赤暖簾＋黒看板）、商店街、駐車中の軽自動車、奥にマンション群、街路灯、舗装は赤茶アスファルト＋グレー大判歩道。",
+        "location_text": "内港北の交差点を北へ戻る街路。",
+        "business_point": "赤白送電鉄塔の足元は景観上の重要な「重い」要素。撤去不能のため周囲の前景整理で背景化する戦術が必要。",
+        "simulation_idea": "鉄塔下の歩道空間を「鉄塔をシンボル化する小公園」に転用するアイデア検証。テーマ「景観阻害物の逆利用」。",
+        "place_id": "inner_port_intersection",
+        "place_name": "三原内港 北側交差点（Mihara Port案内）",
+        "accuracy": "confirmed",
+        "categories": [
+          "景観阻害物"
+        ],
+        "thumb": "assets/thumbs/IMG_0047.jpg",
+        "photo": "assets/photos/IMG_0047.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.07925,
+          34.39535
+        ]
+      },
+      "properties": {
+        "file": "IMG_0048.JPG",
+        "time": "15:12:30",
+        "subject": "街路の中央分離帯植栽。低木とアイリス（？）の植栽帯、ラーメン看板（赤）、白い洋館風建物（ベランダ付き2階建）、左にマンション、右に石畳歩道（薄ピンクとグレーの市松）。",
+        "location_text": "中央ロード〜内港間の中央分離帯。",
+        "business_point": "中央分離帯の植栽帯は維持管理状態が中程度。市松柄歩道は和ゾーン的素材で、内港接続部に和の要素が残る貴重な事例。",
+        "simulation_idea": "市松柄歩道を駅北の和ゾーンへ系統展開するAfter案。テーマ「素材の地区別展開」。",
+        "place_id": "central_road_south_end",
+        "place_name": "中央ロード南端（フェニックス並木）",
+        "accuracy": "confirmed",
+        "categories": [
+          "植栽"
+        ],
+        "thumb": "assets/thumbs/IMG_0048.jpg",
+        "photo": "assets/photos/IMG_0048.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.07965,
+          34.3974
+        ]
+      },
+      "properties": {
+        "file": "IMG_0049.JPG",
+        "time": "15:12:55",
+        "subject": "駅前歩道（駅南へ戻る復路）。「三原駅 Mihara Sta.」茶色案内サイン、地下道入口（階段）、黄色金色の鯉のぼり風オブジェ（右）、駅前のビル群、自転車利用者2名、街路灯（小柱）。",
+        "location_text": "駅前広場南東角、地下道入口前。",
+        "business_point": "駅誘導サイン（茶色＝タコツボ色系）は良好。地下道入口の取り合いはやや雑。鯉のぼり風オブジェは商業装飾。",
+        "simulation_idea": "地下道入口の景観整理案（屋根・サインの統合）。",
+        "place_id": "station_plaza_southeast",
+        "place_name": "駅前広場南東角（時計塔・地下道入口）",
+        "accuracy": "confirmed",
+        "categories": [
+          "サイン"
+        ],
+        "thumb": "assets/thumbs/IMG_0049.jpg",
+        "photo": "assets/photos/IMG_0049.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.07975,
+          34.39505
+        ]
+      },
+      "properties": {
+        "file": "IMG_0050.JPG",
+        "time": "15:13:14",
+        "subject": "内港東公園の「展示のご案内 / 巨大プロペラ・歴史を語る興安丸『錨』」案内板（青地白文字＋イラスト）。背後にコンクリブロック塀、ヤッサ亭縞テント屋根、駐輪場。",
+        "location_text": "三原内港東公園入口。",
+        "business_point": "興安丸プロペラ＋錨は内港の歴史性を象徴する重要展示。案内板は明るい青地で観光標識仕様。本業務の「内港側＝洋＋海事文化」の物語の柱になる。",
+        "simulation_idea": "プロペラ＋錨を主役にした夜景ライトアップ提案。テーマ「内港の海事歴史性」。",
+        "place_id": "inner_port_east_park",
+        "place_name": "内港東公園（興安丸プロペラ）",
+        "accuracy": "confirmed",
+        "categories": [
+          "サイン"
+        ],
+        "thumb": "assets/thumbs/IMG_0050.jpg",
+        "photo": "assets/photos/IMG_0050.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.07975,
+          34.39505
+        ]
+      },
+      "properties": {
+        "file": "IMG_0051.JPG",
+        "time": "15:13:28",
+        "subject": "興安丸の巨大ブロンズプロペラ展示（4枚羽の真鍮色、台座は黒石組）。背後に黒い錨展示、白いマンション、男児が前を歩く、奥に青白テント屋根、植栽帯のツツジ。",
+        "location_text": "内港東公園内、プロペラ展示。",
+        "business_point": "対象エリア内の最重要モニュメント候補。海事遺産（興安丸＝戦後の引揚船）の象徴、観光資源。本業務での扱い：保存・整備・夜間ライトアップ・解説サイン更新。",
+        "simulation_idea": "プロペラの夜間ライトアップ＋プロジェクションマッピング案、解説サイン木製＋御影石ベース仕様への更新（既往ガイドラインの文化財サイン規格適用）。テーマ「内港の海事ストーリー」「夜景演出」。最優先シミュレーション対象。",
+        "place_id": "inner_port_east_park",
+        "place_name": "内港東公園（興安丸プロペラ）",
+        "accuracy": "confirmed",
+        "categories": [
+          "照明",
+          "サイン"
+        ],
+        "thumb": "assets/thumbs/IMG_0051.jpg",
+        "photo": "assets/photos/IMG_0051.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.07905,
+          34.39565
+        ]
+      },
+      "properties": {
+        "file": "IMG_0052.JPG",
+        "time": "15:14:13",
+        "subject": "内港北の旧市街（裏通り）の交差点。3階建て事務所ビル（「松尾山陽 JV 現場事務所」の青看板・「テナント募集」赤看板・「マルヨシビル」表示）、信号機（赤）、白マンション、街路樹（若木）、車道。",
+        "location_text": "内港裏側の旧市街、城町〜港町方面。",
+        "business_point": "対象エリア内の旧市街部分。中低層ビルの色彩・看板のばらつき、テナント空き、街路樹の若さが課題。",
+        "simulation_idea": "旧市街の景観整理（看板色のコード適用）After案。テーマ「沿道色彩統一」「テナント空きの活用」。",
+        "place_id": "inner_port_back",
+        "place_name": "内港裏側（旧市街・倉庫街）",
+        "accuracy": "confirmed",
+        "categories": [
+          "サイン",
+          "植栽"
+        ],
+        "thumb": "assets/thumbs/IMG_0052.jpg",
+        "photo": "assets/photos/IMG_0052.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.07835,
+          34.3963
+        ]
+      },
+      "properties": {
+        "file": "IMG_0053.JPG",
+        "time": "15:15:30",
+        "subject": "旧市街の細い小路（南北）。雑居ビル並び、進入禁止標識（赤丸）、トヨタ車（白）、奥に山（青々とした緑）、和風瓦屋根の店舗（ピンクの軒）、緑の植栽。",
+        "location_text": "内港〜本町西国街道地区の小路（船入櫓跡入口の周辺）。",
+        "business_point": "山（桜山？）への抜け視線が確保された貴重な小路。瓦屋根の和風店舗は地域性を残す要素。",
+        "simulation_idea": "小路の山アイビューを活かす整備案。テーマ「視線抜けの保全」。",
+        "place_id": "honmachi_saigokukaido",
+        "place_name": "本町西国街道地区",
+        "accuracy": "confirmed",
+        "categories": [
+          "植栽",
+          "建築"
+        ],
+        "thumb": "assets/thumbs/IMG_0053.jpg",
+        "photo": "assets/photos/IMG_0053.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.0793,
+          34.39515
+        ]
+      },
+      "properties": {
+        "file": "IMG_0054.JPG",
+        "time": "15:16:00",
+        "subject": "大通り沿い。「暴力のない 明るいまちづくり」の白い大型立て看板（縦書き）、信号機、ベージュビル、車道、駐車車両、奥にWASHINGTON HOTEL、テント屋根（青白）、街路灯。",
+        "location_text": "内港北の大通り、ヤッサ亭付近。",
+        "business_point": "行政の啓発サインは対象エリアに点在しており、景観コード上は撤去・縮小・統合候補。",
+        "simulation_idea": "啓発サインの統合・小型化Before/After。テーマ「行政サインの整理」。",
+        "place_id": "inner_port_intersection",
+        "place_name": "三原内港 北側交差点（Mihara Port案内）",
+        "accuracy": "confirmed",
+        "categories": [
+          "サイン",
+          "景観阻害物"
+        ],
+        "thumb": "assets/thumbs/IMG_0054.jpg",
+        "photo": "assets/photos/IMG_0054.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.07905,
+          34.39565
+        ]
+      },
+      "properties": {
+        "file": "IMG_0055.JPG",
+        "time": "15:18:36",
+        "subject": "「分譲マンション建設予定地」の赤い大型横断幕（信和不動産）、白フェンス、奥にビル群、樹木、舗装は赤茶レンガ風、電柱・架線。",
+        "location_text": "内港裏側、再開発予定地。",
+        "business_point": "対象エリア内の建設予定地は将来の景観に大きく影響。デザインコードを将来計画にも反映する重要根拠。",
+        "simulation_idea": "建設予定マンションのファサード色彩・高さの誘導指標を提示するAfter案。",
+        "place_id": "inner_port_back",
+        "place_name": "内港裏側（旧市街・倉庫街）",
+        "accuracy": "confirmed",
+        "categories": [],
+        "thumb": "assets/thumbs/IMG_0055.jpg",
+        "photo": "assets/photos/IMG_0055.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.07875,
+          34.3953
+        ]
+      },
+      "properties": {
+        "file": "IMG_0056.JPG",
+        "time": "15:19:17",
+        "subject": "コンクリ打ちっぱなしの中層マンション（？）の入口。植栽（緑の灌木）、看板「アクションセンターミハラ AC MIHARA」「SEACIO 海水温熱」、屋根付き駐車場、緑のジムニー風車。回転気味の写真。",
+        "location_text": "内港西側「アクションセンターミハラ（AC MIHARA）」前。",
+        "business_point": "市の地域活動拠点（アクションセンター）。本業務の素案を住民・市民に共有する場の候補。",
+        "simulation_idea": "AC MIHARAを「素案展示・対話拠点」として位置付ける運用案。",
+        "place_id": "ac_mihara",
+        "place_name": "アクションセンターミハラ（AC MIHARA）",
+        "accuracy": "confirmed",
+        "categories": [],
+        "thumb": "assets/thumbs/IMG_0056.jpg",
+        "photo": "assets/photos/IMG_0056.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.07875,
+          34.3953
+        ]
+      },
+      "properties": {
+        "file": "IMG_0057.JPG",
+        "time": "15:19:28",
+        "subject": "AC MIHARAの正面ファサード正対カット。コンクリ打ちっぱなし、看板「アクションセンターミハラ 1時間〜レンタルできます」「SEACIO」、緑ジムニー、奥に黒車。",
+        "location_text": "AC MIHARA正面。",
+        "business_point": "モダンな現代建築。内港裏側の「現代的小拠点」の参考。",
+        "simulation_idea": "公共建築のリファレンスとして活用。",
+        "place_id": "ac_mihara",
+        "place_name": "アクションセンターミハラ（AC MIHARA）",
+        "accuracy": "confirmed",
+        "categories": [],
+        "thumb": "assets/thumbs/IMG_0057.jpg",
+        "photo": "assets/photos/IMG_0057.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.07905,
+          34.39565
+        ]
+      },
+      "properties": {
+        "file": "IMG_0058.JPG",
+        "time": "15:19:32",
+        "subject": "細い裏通り（島源／島張？）。鉄板外壁の倉庫、住宅、奥に山、シルバーミニバン、緑・赤の交通標識、車道。",
+        "location_text": "内港裏側、倉庫街〜住宅地の境界。",
+        "business_point": "対象エリア境界部の倉庫・住宅地は景観コード対象外だが、視線抜けの先として連続性を持つ。",
+        "simulation_idea": "視線抜けの保全。",
+        "place_id": "inner_port_back",
+        "place_name": "内港裏側（旧市街・倉庫街）",
+        "accuracy": "confirmed",
+        "categories": [],
+        "thumb": "assets/thumbs/IMG_0058.jpg",
+        "photo": "assets/photos/IMG_0058.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.07895,
+          34.39515
+        ]
+      },
+      "properties": {
+        "file": "IMG_0059.JPG",
+        "time": "15:20:08",
+        "subject": "「新生銀座」（？）の伝統的アーケード商店街。白壁の商店、看板「#ADD CBD MIHARACITY」（黒看板）、洋風ランタン型街路灯（緑色シェード）3基連続吊り、奥に山、舗装は六角・ダイヤモンドの幾何模様（赤茶＋ベージュ）。",
+        "location_text": "三原市本町付近の旧商店街アーケード。",
+        "business_point": "既存の歴史的商店街アーケード。緑色シェードのランタン街路灯と幾何柄舗装は他エリアと異なる固有意匠。本業務での扱い：地区アイデンティティとして保全 or 整理。",
+        "simulation_idea": "新生銀座のレトロ感を保ちつつ、街路灯のLED化・夜間演出を強化するAfter案。テーマ「地区アイデンティティの保全」。",
+        "place_id": "inner_port_west_arcade",
+        "place_name": "内港西側アーケード（ヤッサ亭・乗船券売場）",
+        "accuracy": "confirmed",
+        "categories": [
+          "照明",
+          "舗装",
+          "建築"
+        ],
+        "thumb": "assets/thumbs/IMG_0059.jpg",
+        "photo": "assets/photos/IMG_0059.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.0797,
+          34.396
+        ]
+      },
+      "properties": {
+        "file": "IMG_0060.JPG",
+        "time": "15:20:44",
+        "subject": "同じ商店街アーケードの少し奥。緑シェードのランタン3基並ぶ街路灯、舗装は同じ幾何模様、店舗（藍色暖簾、薪、Atelier、サロン等）、奥に山、提灯（赤）、自転車。",
+        "location_text": "新生銀座の中央寄り。",
+        "business_point": "街路灯デザインの維持・更新方針が論点。LED光源置換時のシェード再現可否、夜間色温度の選定。",
+        "simulation_idea": "街路灯シェード保全＋LED化案。テーマ「街路灯刷新と地区アイデンティティの両立」。",
+        "place_id": "shinsei_ginza",
+        "place_name": "新生銀座（旧商店街）",
+        "accuracy": "confirmed",
+        "categories": [
+          "照明"
+        ],
+        "thumb": "assets/thumbs/IMG_0060.jpg",
+        "photo": "assets/photos/IMG_0060.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.07835,
+          34.3963
+        ]
+      },
+      "properties": {
+        "file": "IMG_0061.JPG",
+        "time": "15:21:17",
+        "subject": "旧市街の小路（住宅地）。電柱・架線、雑居ビル、自販機、駐車場、駐車車両、奥に屋根の上にビル看板。歩道のアスファルト＋ブロック舗装。",
+        "location_text": "本町西国街道地区の生活道路。",
+        "business_point": "生活道路の現況確認。電柱・架線の景観阻害は依然強い。",
+        "simulation_idea": "無電柱化の優先地区の選定基礎データ。",
+        "place_id": "honmachi_saigokukaido",
+        "place_name": "本町西国街道地区",
+        "accuracy": "confirmed",
+        "categories": [
+          "景観阻害物"
+        ],
+        "thumb": "assets/thumbs/IMG_0061.jpg",
+        "photo": "assets/photos/IMG_0061.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.0797,
+          34.396
+        ]
+      },
+      "properties": {
+        "file": "IMG_0062.JPG",
+        "time": "15:22:25",
+        "subject": "ペアシティ商店街の伝統的歩行者専用アーケード（屋根なし／緑シェードのランタン街路灯付）。床は六角・ダイヤモンドの幾何模様舗装、奥に山、自転車、店舗（KIDS、あさひ、ゴルフショップ等）。三角コーン2基。",
+        "location_text": "新生銀座／ペアシティ商店街内。",
+        "business_point": "舗装パターンと街路灯デザインが既往の地区アイデンティティを形成。本業務での扱い：保全＋部分更新。",
+        "simulation_idea": "商店街アーケードの夜景演出（街路灯ライトアップ＋舗装の蛍光照明）。テーマ「夜の商店街演出」。",
+        "place_id": "shinsei_ginza",
+        "place_name": "新生銀座（旧商店街）",
+        "accuracy": "confirmed",
+        "categories": [
+          "照明",
+          "舗装"
+        ],
+        "thumb": "assets/thumbs/IMG_0062.jpg",
+        "photo": "assets/photos/IMG_0062.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.0797,
+          34.39625
+        ]
+      },
+      "properties": {
+        "file": "IMG_0063.JPG",
+        "time": "15:23:00",
+        "subject": "「三原城船入櫓跡入口」の御影石角柱の道標（縦書き）。横に小さな「不○五番櫓」（読み取り困難な追刻）の文字。背後に細い小路、駐車場、軽トラ、雑居ビル（グリーンビル＝株式会社一真／明光義塾入会随時等）、舗装は石畳パターン（小判型タイル）。",
+        "location_text": "ペアシティ商店街南端、船入櫓跡入口。",
+        "business_point": "本業務の核心要素「船入櫓跡」への入口の道標。既往の御影石角柱は重要な道標素材で、ガイドラインの「街なか誘導サイン（小路サイン含む、白御影石本磨）」の典型例。現状のサイン体系の検証素材。",
+        "simulation_idea": "船入櫓跡入口の演出強化案（石畳延長、解説サイン追加、夜間照明）。テーマ「未整備史跡の現代的再生」。最優先シミュレーション対象。",
+        "place_id": "funairi_yagura",
+        "place_name": "船入櫓跡入口（御影石道標）",
+        "accuracy": "confirmed",
+        "categories": [
+          "舗装",
+          "サイン",
+          "史跡"
+        ],
+        "thumb": "assets/thumbs/IMG_0063.jpg",
+        "photo": "assets/photos/IMG_0063.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.0792,
+          34.3982
+        ]
+      },
+      "properties": {
+        "file": "IMG_0064.JPG",
+        "time": "15:23:26",
+        "subject": "駅構内（？）のホーム壁面と駅舎ファサード。白〜薄グレーの大型外装、屋根の張り出し、街路灯（4mポール＋ボックスシェード）、街路樹、低木植栽。逆光で空が眩しい。",
+        "location_text": "三原駅西口（？）または駅舎の南側壁面。",
+        "business_point": "駅舎ファサードの色・素材の確認。",
+        "simulation_idea": "駅舎背景の景観統一の参考画像。",
+        "place_id": "station_north_rotary",
+        "place_name": "駅北側ロータリー",
+        "accuracy": "confirmed",
+        "categories": [],
+        "thumb": "assets/thumbs/IMG_0064.jpg",
+        "photo": "assets/photos/IMG_0064.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.07925,
+          34.39775
+        ]
+      },
+      "properties": {
+        "file": "IMG_0065.JPG",
+        "time": "15:23:42",
+        "subject": "駅前タクシー乗り場屋根。タクシーのりば青看板、待合屋根（黒鉄骨、片流れ）、奥にタナカ、ROUTE INN、三原国際ホテル、街路樹、ベンチに座る男性。",
+        "location_text": "駅前ロータリーのタクシー乗り場前（駅出口を背に正面）。",
+        "business_point": "待合屋根のデザイン・サイズ・サインの検証。",
+        "simulation_idea": "タクシー乗り場演出の検討。",
+        "place_id": "taxi_stand",
+        "place_name": "駅前タクシー乗り場（駅出口正面）",
+        "accuracy": "confirmed",
+        "categories": [
+          "サイン",
+          "建築"
+        ],
+        "thumb": "assets/thumbs/IMG_0065.jpg",
+        "photo": "assets/photos/IMG_0065.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.0802,
+          34.39745
+        ]
+      },
+      "properties": {
+        "file": "IMG_0066.JPG",
+        "time": "15:24:57",
+        "subject": "マリンロード入口アーチ「Marine Road」（赤金属ロゴ・銀色の金属チューブで魚を象った曲線アーチ）。青い縦看板「マリンロード たこの街」、奥に商店街の店舗、街路灯、街路樹、店舗看板「停」「三原港」（青）。",
+        "location_text": "帝人通りからマリンロード商店街への入口アーチ。",
+        "business_point": "既整備のマリンロードアーチは派手なメタル意匠で、本業務での「現状尊重」対象。一方、整合性の観点ではタコツボ色基調の市内サインから逸脱。",
+        "simulation_idea": "アーチを残しつつ周辺サインをタコツボ色で統一するAfter案。テーマ「既整備の現状尊重と新コードの両立」。",
+        "place_id": "marineroad_central",
+        "place_name": "マリンロード商店街（たこボラード区間）",
+        "accuracy": "confirmed",
+        "categories": [
+          "サイン"
+        ],
+        "thumb": "assets/thumbs/IMG_0066.jpg",
+        "photo": "assets/photos/IMG_0066.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.07975,
+          34.3978
+        ]
+      },
+      "properties": {
+        "file": "IMG_0067.JPG",
+        "time": "15:25:06",
+        "subject": "マリンロードアーチの別アングル（少し手前から）。「Marine Road」赤ロゴ、銀色魚型アーチ、青縦看板「マリンロード」、商店街の店舗（浜吉、KASA、商店）、車道、低い植栽（緑）。",
+        "location_text": "アーチの真下〜手前。",
+        "business_point": "アーチの構造観察。",
+        "simulation_idea": "アーチの夜間照明計画（LED化）。テーマ「商店街アーチの夜景演出」。",
+        "place_id": "marineroad_arch",
+        "place_name": "マリンロード入口アーチ（駅前北東）",
+        "accuracy": "confirmed",
+        "categories": [],
+        "thumb": "assets/thumbs/IMG_0067.jpg",
+        "photo": "assets/photos/IMG_0067.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.07975,
+          34.3978
+        ]
+      },
+      "properties": {
+        "file": "IMG_0068.JPG",
+        "time": "15:25:16",
+        "subject": "マリンロードアーチ＋誘導サイン（赤茶ベース白文字「↑三原港 320m / ↑三原城船入櫓跡石垣 330m / ←三原城船入櫓跡入口 220m / →三原城本丸中門跡 250m」）、ステーションホテル外装、商店街の建物、青「マリンロード たこの街」縦看板。",
+        "location_text": "マリンロード入口、誘導サイン直前。",
+        "business_point": "既設の街なか誘導サインが各文化財・観光地への距離・方向を網羅。既往ガイドラインに準拠した良例。",
+        "simulation_idea": "誘導サインを内港・中央ロード起点にも展開するAfter案。",
+        "place_id": "marineroad_arch",
+        "place_name": "マリンロード入口アーチ（駅前北東）",
+        "accuracy": "confirmed",
+        "categories": [
+          "サイン",
+          "史跡"
+        ],
+        "thumb": "assets/thumbs/IMG_0068.jpg",
+        "photo": "assets/photos/IMG_0068.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.07975,
+          34.3978
+        ]
+      },
+      "properties": {
+        "file": "IMG_0069.JPG",
+        "time": "15:25:32",
+        "subject": "マリンロードアーチ越しの誘導サインのクローズアップ。「↑三原港 / ↑三原城船入櫓跡石垣 / ←三原城船入櫓跡入口 / →三原城本丸中門跡」（赤茶＋白文字＋ピクト）、銀色アーチの曲線。",
+        "location_text": "誘導サイン直下。",
+        "business_point": "誘導サインのデザイン仕様（フォント・色・ピクト）は最重要参照素材。",
+        "simulation_idea": "サインのバリエーション（地区別配色）展開。",
+        "place_id": "marineroad_arch",
+        "place_name": "マリンロード入口アーチ（駅前北東）",
+        "accuracy": "confirmed",
+        "categories": [
+          "サイン"
+        ],
+        "thumb": "assets/thumbs/IMG_0069.jpg",
+        "photo": "assets/photos/IMG_0069.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.07975,
+          34.3978
+        ]
+      },
+      "properties": {
+        "file": "IMG_0070.JPG",
+        "time": "15:25:44",
+        "subject": "駅前広場の集約型観光誘導サイン（赤茶ベース、白文字「↑三原城天主台跡180m／↑三原城船入櫓跡入口220m／→三原城本丸中門跡250m／←三原城跡歴史公園330m」）、奥に駅舎、JRレール（高架）、奥に山。",
+        "location_text": "駅南口前広場の角、観光誘導サイン下。",
+        "business_point": "本業務エリア内の主要史跡4箇所を網羅した最重要サイン。設置方位・距離が一目で把握できる。サイン体系の中核。",
+        "simulation_idea": "このサインを基準に他地点のサインデザインを統一・展開するAfter案。テーマ「サイン統合」「文化財誘導」。最優先シミュレーション対象。",
+        "place_id": "marineroad_arch",
+        "place_name": "マリンロード入口アーチ（駅前北東）",
+        "accuracy": "confirmed",
+        "categories": [
+          "サイン",
+          "史跡"
+        ],
+        "thumb": "assets/thumbs/IMG_0070.jpg",
+        "photo": "assets/photos/IMG_0070.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.0802,
+          34.39745
+        ]
+      },
+      "properties": {
+        "file": "IMG_0071.JPG",
+        "time": "15:25:50",
+        "subject": "マリンロード商店街内（南進）。青地縦看板「マリンロード たこの街」、地球儀風オーナメントの街路灯（小球型）、植栽帯（ツツジ）、奥にビル群、商店街の細い小路、店舗（浜吉、もちこ、たぼこ等）、自転車。",
+        "location_text": "マリンロード商店街内、入口から少し南へ進んだ地点。",
+        "business_point": "マリンロードの街路灯デザイン（ステンレス支柱＋小球型シェード）は商店街固有意匠。植栽帯・縦看板も商店街演出の中核。",
+        "simulation_idea": "マリンロード現状尊重＋LED化と夜間演出強化案。",
+        "place_id": "marineroad_central",
+        "place_name": "マリンロード商店街（たこボラード区間）",
+        "accuracy": "confirmed",
+        "categories": [
+          "照明",
+          "サイン",
+          "植栽"
+        ],
+        "thumb": "assets/thumbs/IMG_0071.jpg",
+        "photo": "assets/photos/IMG_0071.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.0802,
+          34.39745
+        ]
+      },
+      "properties": {
+        "file": "IMG_0072.JPG",
+        "time": "15:26:02",
+        "subject": "マリンロードのたこ柄ボラード（黒鉄製、上部にタコの足の絡まる模様、根元に「タコ」の彫り）が連続列を形成。歩道は六角・ダイヤモンドの幾何柄舗装（青系＋ベージュ）、洋風船舵風街路灯、商店、駐車車両、奥に山。",
+        "location_text": "マリンロード商店街内、たこボラードのある区間。",
+        "business_point": "マリンロード「たこの街」アイデンティティの代表アイテム＝たこボラード。本業務での扱い：現状尊重＋ストーリー化（解説サイン追加）。",
+        "simulation_idea": "たこボラードを夜間照明の足元アクセントとして演出するAfter案。テーマ「商店街アイデンティティの夜景演出」。",
+        "place_id": "marineroad_central",
+        "place_name": "マリンロード商店街（たこボラード区間）",
+        "accuracy": "confirmed",
+        "categories": [
+          "サイン",
+          "ストリートファニチャー"
+        ],
+        "thumb": "assets/thumbs/IMG_0072.jpg",
+        "photo": "assets/photos/IMG_0072.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.0802,
+          34.39745
+        ]
+      },
+      "properties": {
+        "file": "IMG_0073.JPG",
+        "time": "15:27:25",
+        "subject": "マリンロード商店街内、KUI ROSSO（ロッソ）赤看板の店舗前。誘導サイン（赤茶ベース、白文字「↑三原港220m／←三原城船入櫓跡石垣230m／→三原城本丸中門跡260m」）、信号機（赤）、黒柱、街路樹（若木）、自転車利用者、商店街内通行人、奥に高層マンション。",
+        "location_text": "マリンロード中央付近、KUI ROSSO前の交差点。",
+        "business_point": "マリンロード途中の誘導サイン。商店街内に赤茶系の市公式サインが残されている良例。",
+        "simulation_idea": "商店街内サインの集約・整理案。",
+        "place_id": "marineroad_central",
+        "place_name": "マリンロード商店街（たこボラード区間）",
+        "accuracy": "confirmed",
+        "categories": [
+          "サイン"
+        ],
+        "thumb": "assets/thumbs/IMG_0073.jpg",
+        "photo": "assets/photos/IMG_0073.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.080166,
+          34.397443
+        ]
+      },
+      "properties": {
+        "file": "IMG_0074.JPG",
+        "time": "15:27:28",
+        "subject": "IMG_0073の誘導サインの別アングル（やや見上げ）。サイン板内容同じ、奥にKUI ROSSO看板、銀色アーチ、商店街、信号機、街路樹。",
+        "location_text": "IMG_0073の少し前進した位置。",
+        "business_point": "サイン正対視認性の確認。",
+        "simulation_idea": "同上。",
+        "place_id": "interpolated",
+        "place_name": "マリンロード商店街（たこボラード区間） → マリンロード裏通り（杉本写真館） の途中",
+        "accuracy": "interpolated",
+        "categories": [
+          "サイン"
+        ],
+        "thumb": "assets/thumbs/IMG_0074.jpg",
+        "photo": "assets/photos/IMG_0074.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.07995,
+          34.3974
+        ]
+      },
+      "properties": {
+        "file": "IMG_0075.JPG",
+        "time": "15:27:47",
+        "subject": "マリンロード裏側の細い小路（脇道）。古い商店、雑居ビル「トーケビル」、看板（カラオケ、スナック）、ビル外装に錆、自転車利用者、舗装は赤茶ブロック。",
+        "location_text": "マリンロード東側の裏通り。",
+        "business_point": "商店街裏側の生活感ある景観。本業務の対象境界に近い。",
+        "simulation_idea": "裏通りの景観コード展開有無の判断材料。",
+        "place_id": "marineroad_back",
+        "place_name": "マリンロード裏通り（杉本写真館）",
+        "accuracy": "confirmed",
+        "categories": [],
+        "thumb": "assets/thumbs/IMG_0075.jpg",
+        "photo": "assets/photos/IMG_0075.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.0792,
+          34.396
+        ]
+      },
+      "properties": {
+        "file": "IMG_0076.JPG",
+        "time": "15:28:14",
+        "subject": "駅東〜中央ロード北寄りの細い道。立体駐車場（黒外装）、信号機（駐車禁止）、白いビル、自販機（赤・オレンジ）、車道、奥に山、街路灯（ポール）、電柱・架線。",
+        "location_text": "駅前〜中央ロード北寄り。",
+        "business_point": "立体駐車場の壁面が大面積で景観支配。電柱・架線の重なり。",
+        "simulation_idea": "立体駐車場ファサードの色彩・植栽による緩和。",
+        "place_id": "central_road_middle",
+        "place_name": "中央ロード中央（ワシントンホテル付近）",
+        "accuracy": "confirmed",
+        "categories": [],
+        "thumb": "assets/thumbs/IMG_0076.jpg",
+        "photo": "assets/photos/IMG_0076.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.07995,
+          34.3974
+        ]
+      },
+      "properties": {
+        "file": "IMG_0077.JPG",
+        "time": "15:28:19",
+        "subject": "マリンロード裏側の小路。コカ・コーラ自販機（赤）、レンガ造の商店、上部に店舗看板「PORT」「FERRY CASTLE」、配線、屋根、軽自動車、舗装は石畳。",
+        "location_text": "マリンロード東脇の裏通り。",
+        "business_point": "「FERRY CASTLE」「PORT」など海事関連の商業看板が残る。レンガ建築は地区アイデンティティの一要素。",
+        "simulation_idea": "レンガ建築の保全＋商業看板整理のAfter案。",
+        "place_id": "marineroad_back",
+        "place_name": "マリンロード裏通り（杉本写真館）",
+        "accuracy": "confirmed",
+        "categories": [
+          "舗装",
+          "サイン"
+        ],
+        "thumb": "assets/thumbs/IMG_0077.jpg",
+        "photo": "assets/photos/IMG_0077.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.07995,
+          34.3974
+        ]
+      },
+      "properties": {
+        "file": "IMG_0078.JPG",
+        "time": "15:28:30",
+        "subject": "商店街の歩道と車道の境界。古いコンクリ歩道、黒い金属グレーチング、伝統的瓦屋根の建物（杉本写真館 SUGIMOTO PHOTO STUDIO？）、額入りの絵（観光ポスター？）、自転車、奥に商店、舗装はグレーアスファルト。",
+        "location_text": "マリンロード裏通りの杉本写真館付近。",
+        "business_point": "伝統的店舗（杉本写真館）の保全。歩道の老朽化（コンクリ陥没・補修跡）。",
+        "simulation_idea": "歩道補修・伝統店舗の解説サイン設置案。",
+        "place_id": "marineroad_back",
+        "place_name": "マリンロード裏通り（杉本写真館）",
+        "accuracy": "confirmed",
+        "categories": [],
+        "thumb": "assets/thumbs/IMG_0078.jpg",
+        "photo": "assets/photos/IMG_0078.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.07995,
+          34.3974
+        ]
+      },
+      "properties": {
+        "file": "IMG_0079.JPG",
+        "time": "15:28:33",
+        "subject": "商店街の昼閑散とした車道。シャッター閉じた店舗、TACOSの赤旗、人工芝の植栽帯、奥に商店、点字ブロック、舗装。",
+        "location_text": "IMG_0078と同地点近辺、別アングル。",
+        "business_point": "シャッター街化の進行を示すショット。商店街活性化と景観コードの連携の必要性。",
+        "simulation_idea": "シャッター利用（アート展示・観光案内化）の活用案。",
+        "place_id": "marineroad_back",
+        "place_name": "マリンロード裏通り（杉本写真館） ← IMG_0078.JPG",
+        "accuracy": "inherited",
+        "categories": [],
+        "thumb": "assets/thumbs/IMG_0079.jpg",
+        "photo": "assets/photos/IMG_0079.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.07995,
+          34.3974
+        ]
+      },
+      "properties": {
+        "file": "IMG_0080.JPG",
+        "time": "15:29:06",
+        "subject": "細い路地。すえちゃん（？）のれんかかる店舗、シャッター（赤・黒）、自転車2台、駐車車両（黒ミニバン）、奥にPRESTOヘルスケア（？）緑看板、コンクリ造マンション（黒）、奥に外国人風歩行者、駐輪場。",
+        "location_text": "商店街裏側の路地。",
+        "business_point": "同上の路地系景観。",
+        "simulation_idea": "同上。",
+        "place_id": "marineroad_back",
+        "place_name": "マリンロード裏通り（杉本写真館）",
+        "accuracy": "confirmed",
+        "categories": [],
+        "thumb": "assets/thumbs/IMG_0080.jpg",
+        "photo": "assets/photos/IMG_0080.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.079596,
+          34.396364
+        ]
+      },
+      "properties": {
+        "file": "IMG_0081.JPG",
+        "time": "15:29:54",
+        "subject": "集合住宅（マンション）裏のセミプライベート通路。大きな鉢植え（針葉樹）、植え込み（緑）、低い木製フェンス、舗装は薄ピンクの大判タイル＋赤茶帯、奥にカフェテーブル＋椅子（オレンジ椅子）、ガラス建物、奥に山、ベンチ。",
+        "location_text": "駅近の集合住宅敷地内通路（公開空地？）。",
+        "business_point": "私有空間の植栽・舗装が公共空間と連続している好例。本業務の「沿道事業者との連携」の参考。",
+        "simulation_idea": "公開空地と歩道の連続的整備のAfter案。",
+        "place_id": "interpolated",
+        "place_name": "マリンロード裏通り（杉本写真館） → 中央ロード南端（フェニックス並木） の途中",
+        "accuracy": "interpolated",
+        "categories": [
+          "舗装",
+          "植栽"
+        ],
+        "thumb": "assets/thumbs/IMG_0081.jpg",
+        "photo": "assets/photos/IMG_0081.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.07925,
+          34.39535
+        ]
+      },
+      "properties": {
+        "file": "IMG_0082.JPG",
+        "time": "15:30:41",
+        "subject": "中央ロード（？）南向きの車道。広い4車線、信号機（赤）、ヤシ並木、奥に内港のテント屋根、青看板「ED．」、雑居ビル（中本デンタルクリニック）、舗装はグレーアスファルト＋白標示、横断歩道、街路樹（若木）。",
+        "location_text": "中央ロード南端〜内港北の交差点（IMG_0038近辺の少し駅寄り）。",
+        "business_point": "中央ロード〜内港の遷移ポイント。ヤシ並木の南国感が強く出る視点場。",
+        "simulation_idea": "中央ロード南端の鳥瞰俯瞰図ベース。",
+        "place_id": "central_road_south_end",
+        "place_name": "中央ロード南端（フェニックス並木）",
+        "accuracy": "confirmed",
+        "categories": [
+          "植栽"
+        ],
+        "thumb": "assets/thumbs/IMG_0082.jpg",
+        "photo": "assets/photos/IMG_0082.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.07925,
+          34.39535
+        ]
+      },
+      "properties": {
+        "file": "IMG_0083.JPG",
+        "time": "15:30:45",
+        "subject": "同じ視点で別カット。3階建てMIHARA KOKUSAI HOTEL（青看板）、白雑居ビル、4車線車道、駐車車両、奥に山（緑が濃い）、ヤシ並木、横断歩道。",
+        "location_text": "IMG_0082と同地点、別カット。",
+        "business_point": "三原国際ホテルから内港方向の連続ビュー。",
+        "simulation_idea": "同上。",
+        "place_id": "central_road_south_end",
+        "place_name": "中央ロード南端（フェニックス並木） ← IMG_0082.JPG",
+        "accuracy": "inherited",
+        "categories": [
+          "建築"
+        ],
+        "thumb": "assets/thumbs/IMG_0083.jpg",
+        "photo": "assets/photos/IMG_0083.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.0793,
+          34.3969
+        ]
+      },
+      "properties": {
+        "file": "IMG_0084.JPG",
+        "time": "15:31:39",
+        "subject": "中央ロード沿いの歩道。点字ブロック（黄）、舗装は赤茶帯＋ベージュ大判タイル、左に立体駐車場、右に商店（BOSS看板）、奥にビル、街路樹（若木）、原付バイク。",
+        "location_text": "中央ロード沿いの歩道、ろうきん〜ペアシティ間（復路）。",
+        "business_point": "既整備歩道の標準サンプル（IMG_0024の対称位置）。",
+        "simulation_idea": "標準歩道の素材展開図に組み込む。",
+        "place_id": "roukin_front",
+        "place_name": "ろうきん前歩道",
+        "accuracy": "confirmed",
+        "categories": [],
+        "thumb": "assets/thumbs/IMG_0084.jpg",
+        "photo": "assets/photos/IMG_0084.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.07905,
+          34.39755
+        ]
+      },
+      "properties": {
+        "file": "IMG_0085.JPG",
+        "time": "15:31:50",
+        "subject": "「ペアシティ南ロード Pair City South Road」道路名標柱（IMG_0036の南口側双子サイン）。白柱、白丸い看板、奥に駅前WASHINGTONの建物、立体駐車場「P」、ガードフェンス、舗装はグレーピンクの石畳。",
+        "location_text": "ペアシティ中央ロードの南側名「南ロード」起点付近。",
+        "business_point": "中央ロードと南ロードの2系統の道路名サインが対称的に存在。本業務の軸線整理上、両者の関係（直結・分岐・別系統）の整理が必要。",
+        "simulation_idea": "南ロード／中央ロードの軸線関係を視覚化するAfter案。",
+        "place_id": "south_road_start",
+        "place_name": "ペアシティ南ロード起点",
+        "accuracy": "confirmed",
+        "categories": [
+          "サイン"
+        ],
+        "thumb": "assets/thumbs/IMG_0085.jpg",
+        "photo": "assets/photos/IMG_0085.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.07835,
+          34.398
+        ]
+      },
+      "properties": {
+        "file": "IMG_0086.JPG",
+        "time": "15:32:09",
+        "subject": "三原城本丸中門跡の石垣裾と濠。歩道は赤茶帯＋ベージュタイル＋点字ブロック、コンクリの胸壁、石垣（自然石・布積み）、上部に芝生・植栽、奥にスナック風看板の住居、奥にスクーター3台駐輪、ガードチェーン。",
+        "location_text": "中央ロード〜駅北の小路、本丸中門跡北側の濠端。",
+        "business_point": "本丸中門跡の石垣を歩道から見上げる重要ビュー。既存歩道の整備状態は良好。未整備史跡の見せ方として、解説・夜間照明追加で大きく印象が変わる対象。",
+        "simulation_idea": "中門跡石垣のライトアップ・歩道側からの解説サイン設置のAfter案。テーマ「未整備史跡の現代的再生」「夜景演出」。最優先シミュレーション対象。",
+        "place_id": "honmaru_chumon_north",
+        "place_name": "本丸中門跡 北側濠端",
+        "accuracy": "confirmed",
+        "categories": [
+          "照明",
+          "サイン",
+          "史跡"
+        ],
+        "thumb": "assets/thumbs/IMG_0086.jpg",
+        "photo": "assets/photos/IMG_0086.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.07835,
+          34.398
+        ]
+      },
+      "properties": {
+        "file": "IMG_0087.JPG",
+        "time": "15:32:17",
+        "subject": "「三原城臨海一番櫓址（？）」の御影石角柱の道標（縦書き「三原城臨海一番櫓址」）。背景は石垣（自然石）、白い金属手すり、舗装は赤茶帯＋ベージュタイル、左に橋の白手すり。",
+        "location_text": "中門跡周辺の濠近く、臨海一番櫓址の位置。",
+        "business_point": "御影石角柱道標の典型例。文字風化はそれほど進んでいない。既往ガイドラインの「街なか誘導サイン（白御影石本磨）」または「文化財解説サイン」の役割を兼ねる。",
+        "simulation_idea": "史跡道標の体系整理（既存の保全＋未整備史跡への新設）。",
+        "place_id": "honmaru_chumon_north",
+        "place_name": "本丸中門跡 北側濠端",
+        "accuracy": "confirmed",
+        "categories": [
+          "舗装",
+          "サイン",
+          "史跡"
+        ],
+        "thumb": "assets/thumbs/IMG_0087.jpg",
+        "photo": "assets/photos/IMG_0087.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.07835,
+          34.398
+        ]
+      },
+      "properties": {
+        "file": "IMG_0088.JPG",
+        "time": "15:32:42",
+        "subject": "中門跡周辺の歩道広域。手前左にアプローチ、点字ブロック、奥に石垣（自然石）と上部のマンション・JR線高架（？）、白手すり、街路樹（若木）、植栽帯、グレー大判タイル舗装、奥に山。",
+        "location_text": "中門跡北側の濠沿い歩道。",
+        "business_point": "史跡石垣と現代マンションの並立。背景マンションは景観上の課題。",
+        "simulation_idea": "石垣を主役にし、背景マンションを目立たせない前景演出のAfter案。",
+        "place_id": "honmaru_chumon_north",
+        "place_name": "本丸中門跡 北側濠端",
+        "accuracy": "confirmed",
+        "categories": [
+          "史跡",
+          "建築"
+        ],
+        "thumb": "assets/thumbs/IMG_0088.jpg",
+        "photo": "assets/photos/IMG_0088.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.0783,
+          34.3979
+        ]
+      },
+      "properties": {
+        "file": "IMG_0089.JPG",
+        "time": "15:32:49",
+        "subject": "本丸中門跡の濠（水面）と石垣。手前に木製の歩道（コンクリ製胸壁の腰板？）、水面に石垣の影が映る、対岸の自然石垣（藻・小植物）、上部に白マンション、外階段、エアコン室外機。",
+        "location_text": "中門跡濠の南側歩道。",
+        "business_point": "本丸中門跡の最重要ビュー。水面・石垣・マンションの3層構成。史跡夜間ライトアップの好適対象。",
+        "simulation_idea": "濠の水面演出（夜間の石垣ライトアップ反射）レンダリング。テーマ「史跡夜間ライトアップ」。最優先シミュレーション対象。",
+        "place_id": "honmaru_chumon_south",
+        "place_name": "本丸中門跡 南側歩道（濠・石垣ビュー）",
+        "accuracy": "confirmed",
+        "categories": [
+          "照明",
+          "史跡",
+          "建築"
+        ],
+        "thumb": "assets/thumbs/IMG_0089.jpg",
+        "photo": "assets/photos/IMG_0089.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.0783,
+          34.3979
+        ]
+      },
+      "properties": {
+        "file": "IMG_0090.JPG",
+        "time": "15:33:23",
+        "subject": "中門跡濠の石垣のクローズアップ（高さ約3m、布積み風自然石）と水面（緑色）。歩道側から見上げ。",
+        "location_text": "中門跡濠の南側、石垣足元から見上げ。",
+        "business_point": "石垣の状態（コケ・植物の侵食）と布積みの石材寸法の記録。詳細整備の根拠資料。",
+        "simulation_idea": "石垣ライトアップ（直近距離）。",
+        "place_id": "honmaru_chumon_south",
+        "place_name": "本丸中門跡 南側歩道（濠・石垣ビュー）",
+        "accuracy": "confirmed",
+        "categories": [
+          "舗装",
+          "史跡"
+        ],
+        "thumb": "assets/thumbs/IMG_0090.jpg",
+        "photo": "assets/photos/IMG_0090.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.0783,
+          34.3979
+        ]
+      },
+      "properties": {
+        "file": "IMG_0091.JPG",
+        "time": "15:33:31",
+        "subject": "「史跡 小早川氏城跡 本丸中門跡」の御影石角柱（大型）と解説銘板（白御影石ベース、横書き「2019年記念 1980-？／三原ライオンズクラブ」とあり、図解・地図入りの解説プレート）。背後に石垣、奥にマンション。",
+        "location_text": "中門跡の正面入口。",
+        "business_point": "三原ライオンズクラブ寄贈の解説銘板。既設の文化財解説サインの代表例。「2019年記念」の刻みから比較的新しい設置。既往ガイドラインの「文化財解説サイン（耐候15年）」の典型。",
+        "simulation_idea": "解説サインの体系整理＋ARコード追加（QR読み取りで動画解説）の現代的拡張。テーマ「文化財解説サイン」。",
+        "place_id": "honmaru_chumon_south",
+        "place_name": "本丸中門跡 南側歩道（濠・石垣ビュー）",
+        "accuracy": "confirmed",
+        "categories": [
+          "サイン",
+          "史跡"
+        ],
+        "thumb": "assets/thumbs/IMG_0091.jpg",
+        "photo": "assets/photos/IMG_0091.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.0783,
+          34.3979
+        ]
+      },
+      "properties": {
+        "file": "IMG_0092.JPG",
+        "time": "15:33:53",
+        "subject": "中門跡を抜けた駅前方向の歩道。左に雑居ビル、右に立体駐車場、白手すり、舗装は赤茶帯＋ベージュ大判、若木、奥にJR高架、街路樹、運送トラック（白）。",
+        "location_text": "中門跡付近から駅へ戻る歩道。",
+        "business_point": "史跡周辺歩道の整備度の確認。",
+        "simulation_idea": "史跡周辺の歩道仕様を「中門跡仕様」として再定義するAfter案。",
+        "place_id": "honmaru_chumon_south",
+        "place_name": "本丸中門跡 南側歩道（濠・石垣ビュー）",
+        "accuracy": "confirmed",
+        "categories": [
+          "史跡"
+        ],
+        "thumb": "assets/thumbs/IMG_0092.jpg",
+        "photo": "assets/photos/IMG_0092.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.0783,
+          34.3979
+        ]
+      },
+      "properties": {
+        "file": "IMG_0093.JPG",
+        "time": "15:34:00",
+        "subject": "本丸中門跡の解説銘板（横倒し台座型）を歩道側から正対。前方に解説プレート（横書き、絵地図入り、青ロゴ付き）、奥にビルCORE、雑居ビル、白手すり、白タイル舗装、街路樹（若木1本）、奥に山。",
+        "location_text": "中門跡前歩道。",
+        "business_point": "解説プレートの仕様（横倒し型・大型・絵地図入り）は最重要参照。",
+        "simulation_idea": "同上の体系整理＋多言語化追加。",
+        "place_id": "honmaru_chumon_south",
+        "place_name": "本丸中門跡 南側歩道（濠・石垣ビュー）",
+        "accuracy": "confirmed",
+        "categories": [
+          "サイン"
+        ],
+        "thumb": "assets/thumbs/IMG_0093.jpg",
+        "photo": "assets/photos/IMG_0093.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.07835,
+          34.3963
+        ]
+      },
+      "properties": {
+        "file": "IMG_0094.JPG",
+        "time": "15:34:59",
+        "subject": "旧市街の裏通り（駅北寄り）。シャッター閉じた店舗（おにぎり屋にんにこ／みきよう？）、雑居ビル、ガラス建物、バイク、舗装は赤茶レンガパターン（小判型）＋ハート型の歩道用記号、奥に山、信号機。",
+        "location_text": "本町西国街道地区の裏通り。",
+        "business_point": "既存舗装にハート型・花型の装飾レンガが混入。地区固有の遊び心ある舗装。本業務での扱い：保全 or 整理。",
+        "simulation_idea": "装飾舗装の保全＋夜間照明案（埋設LEDで装飾を浮かび上がらせる）。",
+        "place_id": "honmachi_saigokukaido",
+        "place_name": "本町西国街道地区",
+        "accuracy": "confirmed",
+        "categories": [
+          "舗装"
+        ],
+        "thumb": "assets/thumbs/IMG_0094.jpg",
+        "photo": "assets/photos/IMG_0094.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.07835,
+          34.3963
+        ]
+      },
+      "properties": {
+        "file": "IMG_0095.JPG",
+        "time": "15:35:10",
+        "subject": "旧市街の交差点。手前に山口本店（看板、黒いシャッター）、雑居ビル、駐車場、奥にJR高架、信号機（黄）、自転車1台、舗装は石畳パターン、奥に山。",
+        "location_text": "本町西国街道地区の交差点。",
+        "business_point": "老舗商店「山口本店」（？）の保全評価。",
+        "simulation_idea": "老舗保全のサインプロジェクト。",
+        "place_id": "honmachi_saigokukaido",
+        "place_name": "本町西国街道地区",
+        "accuracy": "confirmed",
+        "categories": [],
+        "thumb": "assets/thumbs/IMG_0095.jpg",
+        "photo": "assets/photos/IMG_0095.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.07835,
+          34.3963
+        ]
+      },
+      "properties": {
+        "file": "IMG_0096.JPG",
+        "time": "15:35:25",
+        "subject": "旧市街の小道。手前左に植栽帯（白プランター）、奥にPOLA（？）店舗、軽トラ（白）、雑居ビル、舗装は赤茶レンガ＋点字ブロック、奥に屋根の街並み、植栽。",
+        "location_text": "本町西国街道地区の小道。",
+        "business_point": "商店街の細い裏通り。植栽の緑量は最小限。",
+        "simulation_idea": "街路樹増量・植栽帯整備案。",
+        "place_id": "honmachi_saigokukaido",
+        "place_name": "本町西国街道地区",
+        "accuracy": "confirmed",
+        "categories": [
+          "植栽"
+        ],
+        "thumb": "assets/thumbs/IMG_0096.jpg",
+        "photo": "assets/photos/IMG_0096.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.07815,
+          34.39575
+        ]
+      },
+      "properties": {
+        "file": "IMG_0097.JPG",
+        "time": "15:36:51",
+        "subject": "古い和菓子・甘味店「八天堂（HACHITENDO）」の正面（黒い格子ファサード、八天堂の暖簾、白看板「いつも、と。」、店頭ベンチ）。隣に港町オフィス。",
+        "location_text": "港町（西の方）の和菓子店「八天堂」三原本店。",
+        "business_point": "三原発祥の和菓子チェーン「八天堂」本店は地域アイデンティティの代表例。本業務での扱い：保全＋観光誘導サインのターゲット候補。",
+        "simulation_idea": "八天堂本店周辺の歩行者動線演出（誘導サイン・小規模広場）。テーマ「観光資源の散策ルート」。",
+        "place_id": "minato_machi",
+        "place_name": "港町・八天堂三原本店付近",
+        "accuracy": "confirmed",
+        "categories": [
+          "サイン"
+        ],
+        "thumb": "assets/thumbs/IMG_0097.jpg",
+        "photo": "assets/photos/IMG_0097.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.0796,
+          34.3973
+        ]
+      },
+      "properties": {
+        "file": "IMG_0098.JPG",
+        "time": "15:37:13",
+        "subject": "大通りの信号交差点。歩道側からの撮影。手前にガードフェンス（黒）、信号機、青案内サイン「↑12km 尾道 Onomichi」、ヤシ並木、ファミリーマート（緑看板）、車道、駐車車両（黒）、街路灯。",
+        "location_text": "帝人通り（？）の交差点、ファミリーマート付近。",
+        "business_point": "帝人通り（既整備）の信号交差点ビュー。広域案内サイン（尾道方面）も設置済。",
+        "simulation_idea": "帝人通り現状尊重を確認するリファレンス。",
+        "place_id": "teijin_dori_start",
+        "place_name": "帝人通り起点（信号交差点）",
+        "accuracy": "confirmed",
+        "categories": [
+          "サイン"
+        ],
+        "thumb": "assets/thumbs/IMG_0098.jpg",
+        "photo": "assets/photos/IMG_0098.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.07995,
+          34.3974
+        ]
+      },
+      "properties": {
+        "file": "IMG_0099.JPG",
+        "time": "15:37:27",
+        "subject": "商店街の細い裏通り。赤色のテント屋根（モモテラスかもしれない）、白雑居ビル、駐車車両2台（白）、原付、奥にビル群、植栽（緑のプランター）、舗装は赤茶レンガ＋ベージュタイル、自転車1台。",
+        "location_text": "商店街裏の小路。",
+        "business_point": "赤テント屋根の商業意匠は地区アクセント。",
+        "simulation_idea": "商業意匠と公共サインの分離整理。",
+        "place_id": "marineroad_back",
+        "place_name": "マリンロード裏通り（杉本写真館）",
+        "accuracy": "confirmed",
+        "categories": [
+          "建築"
+        ],
+        "thumb": "assets/thumbs/IMG_0099.jpg",
+        "photo": "assets/photos/IMG_0099.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.079735,
+          34.3974
+        ]
+      },
+      "properties": {
+        "file": "IMG_0100.JPG",
+        "time": "15:39:50",
+        "subject": "商店街の道路（30km制限）。電柱の上に洋風街路灯（ガス灯風）、青地縦看板「Atelier」、雑居ビル、駐車場（赤フェンス、軽車）、若い男性歩行者、奥に山、白タイルの舗装と排水溝。",
+        "location_text": "中央ロード〜駅北寄りの裏通り。",
+        "business_point": "洋風ガス灯風の街路灯が地区別に存在することを確認（IMG_0009-11の駅前装飾灯と類似系統）。",
+        "simulation_idea": "街路灯デザインの地区分布マッピング。",
+        "place_id": "interpolated",
+        "place_name": "マリンロード裏通り（杉本写真館） → 駅前広場南東角（時計塔・地下道入口） の途中",
+        "accuracy": "interpolated",
+        "categories": [
+          "照明"
+        ],
+        "thumb": "assets/thumbs/IMG_0100.jpg",
+        "photo": "assets/photos/IMG_0100.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.07966,
+          34.3974
+        ]
+      },
+      "properties": {
+        "file": "IMG_0101.JPG",
+        "time": "15:40:40",
+        "subject": "駅前歩道。屋根付き庇下、街路灯（4mポールトップ）、舗装は薄グレー大判＋赤茶帯、奥に商店街アーケード、街路樹、雑居ビル、駐車車両、植栽帯、ピンクのツツジ。",
+        "location_text": "駅南口戻り、駅前歩道。",
+        "business_point": "駅前歩道の標準ビュー。植栽は既整備で良好。",
+        "simulation_idea": "駅前歩道の標準仕様確認。",
+        "place_id": "interpolated",
+        "place_name": "マリンロード裏通り（杉本写真館） → 駅前広場南東角（時計塔・地下道入口） の途中",
+        "accuracy": "interpolated",
+        "categories": [
+          "植栽"
+        ],
+        "thumb": "assets/thumbs/IMG_0101.jpg",
+        "photo": "assets/photos/IMG_0101.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.07965,
+          34.3974
+        ]
+      },
+      "properties": {
+        "file": "IMG_0102.JPG",
+        "time": "15:40:47",
+        "subject": "駅前広場の南東角。中央ロード北端の交差点、ヤシ並木（？）、植栽帯（ツツジ）、街路樹、雑居ビル、街路灯、駐車場、奥にビル群と山。",
+        "location_text": "駅前広場南東〜中央ロード起点。",
+        "business_point": "駅前と中央ロードの接続部の俯瞰。",
+        "simulation_idea": "駅前〜中央ロード接続部の鳥瞰図ベース。",
+        "place_id": "station_plaza_southeast",
+        "place_name": "駅前広場南東角（時計塔・地下道入口）",
+        "accuracy": "confirmed",
+        "categories": [],
+        "thumb": "assets/thumbs/IMG_0102.jpg",
+        "photo": "assets/photos/IMG_0102.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.0792,
+          34.3982
+        ]
+      },
+      "properties": {
+        "file": "IMG_0103.JPG",
+        "time": "15:41:03",
+        "subject": "駅前歩道（横回転気味）。街路灯（4mポール）、ピンクのツツジ植栽帯、雑居ビル群（小早川薬店、看板）、奥に山、舗装は薄グレー大判タイル。",
+        "location_text": "駅前歩道、駅西口寄り。",
+        "business_point": "駅前歩道の植栽密度・街路灯間隔の確認。",
+        "simulation_idea": "標準歩道の素材展開図に組み込む。",
+        "place_id": "station_north_rotary",
+        "place_name": "駅北側ロータリー",
+        "accuracy": "confirmed",
+        "categories": [
+          "照明",
+          "植栽"
+        ],
+        "thumb": "assets/thumbs/IMG_0103.jpg",
+        "photo": "assets/photos/IMG_0103.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.07965,
+          34.3974
+        ]
+      },
+      "properties": {
+        "file": "IMG_0104.JPG",
+        "time": "15:41:20",
+        "subject": "ロータリー南東口の交差点。立体駐車場、CORE（雑居ビル赤看板）、雑居ビル、白手すり、白いハッチバック車、街路樹、奥に山、信号機。",
+        "location_text": "駅前広場南東角の信号交差点。",
+        "business_point": "COREの赤い大型看板は対象エリアの主要ランドマーク。",
+        "simulation_idea": "COREランドマークの活用案。",
+        "place_id": "station_plaza_southeast",
+        "place_name": "駅前広場南東角（時計塔・地下道入口）",
+        "accuracy": "confirmed",
+        "categories": [
+          "サイン"
+        ],
+        "thumb": "assets/thumbs/IMG_0104.jpg",
+        "photo": "assets/photos/IMG_0104.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.0793,
+          34.3976
+        ]
+      },
+      "properties": {
+        "file": "IMG_0105.JPG",
+        "time": "15:41:58",
+        "subject": "駅前広場の中央。芝生の島、街路樹（若木と老木のミックス）、奥に立体駐車場「P」、雑居ビル、ピンクのツツジ植栽、舗装は赤茶帯＋ベージュ大判、自転車利用者。",
+        "location_text": "駅前広場中央〜南東口。",
+        "business_point": "駅前広場中央の芝生・植栽の現状。一部の老木は維持価値あり。",
+        "simulation_idea": "老木保全＋若木の配置最適化。",
+        "place_id": "station_plaza_center",
+        "place_name": "駅前広場中央（噴水・装飾街路灯）",
+        "accuracy": "confirmed",
+        "categories": [
+          "植栽",
+          "広場"
+        ],
+        "thumb": "assets/thumbs/IMG_0105.jpg",
+        "photo": "assets/photos/IMG_0105.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.079387,
+          34.39755
+        ]
+      },
+      "properties": {
+        "file": "IMG_0106.JPG",
+        "time": "15:42:05",
+        "subject": "駅前広場の北東角。ROUTE INN、三原国際ホテル（青ロゴ）、街路樹（大樹）、ピンクのツツジ、駐車車両、街路灯、奥にみはら市民大学・市民ギャラリー入口。",
+        "location_text": "駅前広場北東口。",
+        "business_point": "駅前広場の北東口の俯瞰。",
+        "simulation_idea": "駅前広場全体の俯瞰計画図ベース。",
+        "place_id": "interpolated",
+        "place_name": "駅前広場中央（噴水・装飾街路灯） → 駅前広場南東角（時計塔・地下道入口） の途中",
+        "accuracy": "interpolated",
+        "categories": [
+          "広場"
+        ],
+        "thumb": "assets/thumbs/IMG_0106.jpg",
+        "photo": "assets/photos/IMG_0106.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.07965,
+          34.3974
+        ]
+      },
+      "properties": {
+        "file": "IMG_0107.JPG",
+        "time": "15:42:26",
+        "subject": "駅前広場の南東口。ROUTE INN（白の高層棟）、赤白送電鉄塔、三原国際ホテル、信号機、横断歩道、街路樹、街路灯、舗装は薄グレー＋赤茶帯。",
+        "location_text": "駅前広場南東角。",
+        "business_point": "ロータリーの動線の典型ビュー。",
+        "simulation_idea": "同上の鳥瞰図ベース。",
+        "place_id": "station_plaza_southeast",
+        "place_name": "駅前広場南東角（時計塔・地下道入口）",
+        "accuracy": "confirmed",
+        "categories": [
+          "広場"
+        ],
+        "thumb": "assets/thumbs/IMG_0107.jpg",
+        "photo": "assets/photos/IMG_0107.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.07965,
+          34.3974
+        ]
+      },
+      "properties": {
+        "file": "IMG_0108.JPG",
+        "time": "15:42:54",
+        "subject": "駅前広場のバス待合屋根（黒鉄骨）、ベンチ、ROUTE INN、三原国際ホテル、ロータリー奥、ビジネスマン1名（スーツ＋資料を持つ）、舗装はグレー大判。",
+        "location_text": "駅前ロータリー南東口の待合屋根下。",
+        "business_point": "バス待合の機能確認。本業務の現地調査スタッフ（？）または市職員の姿。",
+        "simulation_idea": "バス待合の演出改善（夜間照明・サイン）。",
+        "place_id": "station_plaza_southeast",
+        "place_name": "駅前広場南東角（時計塔・地下道入口）",
+        "accuracy": "confirmed",
+        "categories": [],
+        "thumb": "assets/thumbs/IMG_0108.jpg",
+        "photo": "assets/photos/IMG_0108.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.0791,
+          34.39865
+        ]
+      },
+      "properties": {
+        "file": "IMG_0109.JPG",
+        "time": "15:49:39",
+        "subject": "三原城跡の濠と石垣（駅北側）の遠景。手前左にマンション（褐色高層）、店舗群（屋根に給水塔）、奥に石垣（布積み・大規模）、緑の樹木、青空、水面（濠）、奥に山並み、木製柵（公園内）。",
+        "location_text": "三原城歴史公園内の濠・石垣を歩道から見渡すビュー。",
+        "business_point": "本業務エリア最北の核心ビュー。三原城天主台跡の主石垣・濠が一体的に観察できる。歴史公園は既整備、和ゾーンの中核。",
+        "simulation_idea": "濠＋石垣の夜景ライトアップ＋歴史公園の和風サイン群統一案。テーマ「和ゾーンの核」「夜景演出」。最優先シミュレーション対象（TOP3）。",
+        "place_id": "mihara_castle_park",
+        "place_name": "三原城跡歴史公園（天主台跡・本丸石垣）",
+        "accuracy": "confirmed",
+        "categories": [
+          "史跡"
+        ],
+        "thumb": "assets/thumbs/IMG_0109.jpg",
+        "photo": "assets/photos/IMG_0109.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.0791,
+          34.39865
+        ]
+      },
+      "properties": {
+        "file": "IMG_0110.JPG",
+        "time": "15:49:53",
+        "subject": "天主台跡の三角形山と石垣のシルエット。手前に濠（水面）、対岸の褐色マンション、雑居ビル、白雑居ビル、奥に急峻な山（桜山＝天主台跡の背景）、青空。",
+        "location_text": "三原城歴史公園内の濠から東を望む。",
+        "business_point": "桜山＋天主台跡の重ね合わせは本業務エリアの最重要シンボル景観。",
+        "simulation_idea": "桜山と城跡石垣の一体ライトアップ。テーマ「自然と歴史の重ね合わせ」「夜景演出」。最優先シミュレーション対象（TOP3）。",
+        "place_id": "mihara_castle_park",
+        "place_name": "三原城跡歴史公園（天主台跡・本丸石垣）",
+        "accuracy": "confirmed",
+        "categories": [
+          "植栽",
+          "史跡"
+        ],
+        "thumb": "assets/thumbs/IMG_0110.jpg",
+        "photo": "assets/photos/IMG_0110.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.0792,
+          34.3982
+        ]
+      },
+      "properties": {
+        "file": "IMG_0111.JPG",
+        "time": "15:50:34",
+        "subject": "三原城跡歴史公園内の遊歩広場。手前に大樹（モミジ系）、奥に園内アズマヤ（木造、焦げ茶屋根の屋根付き休憩所）、水場、子ども2名（自転車・ランドセル背負）、舗装は土系＋自然石、奥にビル、桜山、葉の濃い緑樹。",
+        "location_text": "三原城跡歴史公園の遊歩広場（駅北口を出てすぐ）。",
+        "business_point": "既整備の歴史公園内空間。和風の木造アズマヤ・自然石舗装はガイドラインの「文化財施設・解説サイン」と同系統素材。",
+        "simulation_idea": "歴史公園の現状＋夜景ライトアップAfter案。テーマ「和ゾーンの核」。最優先シミュレーション対象。",
+        "place_id": "station_north_rotary",
+        "place_name": "駅北側ロータリー",
+        "accuracy": "confirmed",
+        "categories": [
+          "舗装",
+          "サイン",
+          "史跡"
+        ],
+        "thumb": "assets/thumbs/IMG_0111.jpg",
+        "photo": "assets/photos/IMG_0111.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.0791,
+          34.39865
+        ]
+      },
+      "properties": {
+        "file": "IMG_0112.JPG",
+        "time": "15:50:49",
+        "subject": "三原城跡歴史公園内の解説サイン（白御影石ベース＋プリント仕様の解説プレート、「三原ライオンズクラブ寄贈」「2019」表記、図解・解説文）、奥に石垣、白手すり、土系舗装。",
+        "location_text": "歴史公園内、IMG_0091と類似の解説サイン。",
+        "business_point": "既設の文化財解説サインの典型例。耐候プリント＋御影石ベース。ガイドラインに最も整合。",
+        "simulation_idea": "解説サインの統一基準として本デザインを採用するAfter案。テーマ「文化財サイン統一」。",
+        "place_id": "mihara_castle_park",
+        "place_name": "三原城跡歴史公園（天主台跡・本丸石垣）",
+        "accuracy": "confirmed",
+        "categories": [
+          "舗装",
+          "サイン",
+          "史跡"
+        ],
+        "thumb": "assets/thumbs/IMG_0112.jpg",
+        "photo": "assets/photos/IMG_0112.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.0791,
+          34.39865
+        ]
+      },
+      "properties": {
+        "file": "IMG_0113.JPG",
+        "time": "15:51:42",
+        "subject": "歴史公園内の木造復元下屋（しもや、屋根付き縁台）。瓦屋根（焦げ茶）、太い柱、ベンチ、土系舗装、植栽（緑）、奥にマンション、桜山、青空。",
+        "location_text": "三原城跡歴史公園の北側、復元下屋。",
+        "business_point": "既整備の和風建築要素。城下町の雰囲気を作る重要素材。本業務の和ゾーン展開のベンチマーク。",
+        "simulation_idea": "下屋を活用したイベント演出（夜間ライトアップ・ライブ）。テーマ「和ゾーンの活用提案」。",
+        "place_id": "mihara_castle_park",
+        "place_name": "三原城跡歴史公園（天主台跡・本丸石垣）",
+        "accuracy": "confirmed",
+        "categories": [
+          "ストリートファニチャー"
+        ],
+        "thumb": "assets/thumbs/IMG_0113.jpg",
+        "photo": "assets/photos/IMG_0113.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.0791,
+          34.39865
+        ]
+      },
+      "properties": {
+        "file": "IMG_0114.JPG",
+        "time": "15:51:50",
+        "subject": "三原城本丸の角石垣（高さ約8m、布積み・乱積みの混合、自然石）と濠（水面）、奥にマンション、樹木、青空、手前にスチールフェンス、舗装はアスファルト。",
+        "location_text": "三原城跡歴史公園東側、JR線高架近く。",
+        "business_point": "本丸石垣の本格的なビュー。ガイドラインの文化財施設サイン・解説サインの設置候補地。",
+        "simulation_idea": "本丸石垣の夜間ライトアップ＋手前歩道演出（点字ブロック含む整備）のAfter案。テーマ「史跡夜間ライトアップ」。最優先シミュレーション対象（TOP3）。",
+        "place_id": "mihara_castle_park",
+        "place_name": "三原城跡歴史公園（天主台跡・本丸石垣）",
+        "accuracy": "confirmed",
+        "categories": [
+          "サイン",
+          "史跡"
+        ],
+        "thumb": "assets/thumbs/IMG_0114.jpg",
+        "photo": "assets/photos/IMG_0114.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.0791,
+          34.39865
+        ]
+      },
+      "properties": {
+        "file": "IMG_0115.JPG",
+        "time": "15:52:20",
+        "subject": "歴史公園内の細道（バリアフリー通路）。スチール手すり、白御影石の縁石、白タイル舗装＋茶系細目、奥にアズマヤ風屋根（焦げ茶）、駐車車両（赤）、自転車、緑の植栽。",
+        "location_text": "歴史公園内のバリアフリー園路。",
+        "business_point": "既整備のバリアフリー園路。手すり仕様・舗装色の確認。",
+        "simulation_idea": "バリアフリー仕様の標準として展開。",
+        "place_id": "mihara_castle_park",
+        "place_name": "三原城跡歴史公園（天主台跡・本丸石垣）",
+        "accuracy": "confirmed",
+        "categories": [
+          "舗装",
+          "ストリートファニチャー"
+        ],
+        "thumb": "assets/thumbs/IMG_0115.jpg",
+        "photo": "assets/photos/IMG_0115.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.07975,
+          34.39855
+        ]
+      },
+      "properties": {
+        "file": "IMG_0116.JPG",
+        "time": "15:52:31",
+        "subject": "歴史公園東端の植栽帯と石ベンチ（白御影石、3連）、奥に焦げ茶の木造下屋、街路灯（黒鋼）、緑の山並み、車道、街路樹、奥に住宅。",
+        "location_text": "歴史公園東端の出口付近。",
+        "business_point": "既整備の白御影石ベンチと街路灯（黒鋼）は和ゾーンのストリートファニチャー候補。",
+        "simulation_idea": "ベンチ・街路灯のセットを和ゾーン共通仕様として展開するAfter案。テーマ「ストリートファニチャー統一」。",
+        "place_id": "mihara_castle_park_east",
+        "place_name": "三原城跡歴史公園 東側（JR高架近く）",
+        "accuracy": "confirmed",
+        "categories": [
+          "照明",
+          "舗装",
+          "ストリートファニチャー"
+        ],
+        "thumb": "assets/thumbs/IMG_0116.jpg",
+        "photo": "assets/photos/IMG_0116.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.0791,
+          34.39865
+        ]
+      },
+      "properties": {
+        "file": "IMG_0117.JPG",
+        "time": "15:53:30",
+        "subject": "「三原城跡歴史公園」総合案内サイン（焦げ茶の木枠＋瓦屋根の屋根付き、図入り全体案内図、ライオンズクラブ寄贈表記、配置図あり）。背後に桜山、濠（？）、土系広場、街路灯、樹木、住宅、奥にマンション。",
+        "location_text": "三原城跡歴史公園の総合案内サイン（北口入口）。",
+        "business_point": "既往ガイドラインの「文化財案内サイン（小早川氏城跡共通：木製＋御影石ベース）」の代表例。木枠＋瓦屋根の和風総合案内サインは最重要参照。",
+        "simulation_idea": "総合案内サインの仕様を本業務のシグニチャーとして全エリア展開するAfter案。テーマ「文化財サイン統一」「和ゾーンの核」。最優先シミュレーション対象。",
+        "place_id": "mihara_castle_park",
+        "place_name": "三原城跡歴史公園（天主台跡・本丸石垣）",
+        "accuracy": "confirmed",
+        "categories": [
+          "舗装",
+          "サイン",
+          "史跡",
+          "建築"
+        ],
+        "thumb": "assets/thumbs/IMG_0117.jpg",
+        "photo": "assets/photos/IMG_0117.jpg"
+      }
+    }
+  ]
+}
