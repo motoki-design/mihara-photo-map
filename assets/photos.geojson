@@ -26,7 +26,8 @@
           "史跡"
         ],
         "thumb": "assets/thumbs/IMG_0001.jpg",
-        "photo": "assets/photos/IMG_0001.jpg"
+        "photo": "assets/photos/IMG_0001.jpg",
+        "simulations": []
       }
     },
     {
@@ -53,7 +54,8 @@
           "サイン"
         ],
         "thumb": "assets/thumbs/IMG_0002.jpg",
-        "photo": "assets/photos/IMG_0002.jpg"
+        "photo": "assets/photos/IMG_0002.jpg",
+        "simulations": []
       }
     },
     {
@@ -80,7 +82,8 @@
           "景観阻害物"
         ],
         "thumb": "assets/thumbs/IMG_0003.jpg",
-        "photo": "assets/photos/IMG_0003.jpg"
+        "photo": "assets/photos/IMG_0003.jpg",
+        "simulations": []
       }
     },
     {
@@ -108,7 +111,8 @@
           "景観阻害物"
         ],
         "thumb": "assets/thumbs/IMG_0004.jpg",
-        "photo": "assets/photos/IMG_0004.jpg"
+        "photo": "assets/photos/IMG_0004.jpg",
+        "simulations": []
       }
     },
     {
@@ -135,7 +139,8 @@
           "景観阻害物"
         ],
         "thumb": "assets/thumbs/IMG_0005.jpg",
-        "photo": "assets/photos/IMG_0005.jpg"
+        "photo": "assets/photos/IMG_0005.jpg",
+        "simulations": []
       }
     },
     {
@@ -164,7 +169,8 @@
           "広場"
         ],
         "thumb": "assets/thumbs/IMG_0006.jpg",
-        "photo": "assets/photos/IMG_0006.jpg"
+        "photo": "assets/photos/IMG_0006.jpg",
+        "simulations": []
       }
     },
     {
@@ -191,7 +197,8 @@
           "景観阻害物"
         ],
         "thumb": "assets/thumbs/IMG_0007.jpg",
-        "photo": "assets/photos/IMG_0007.jpg"
+        "photo": "assets/photos/IMG_0007.jpg",
+        "simulations": []
       }
     },
     {
@@ -218,7 +225,8 @@
           "建築"
         ],
         "thumb": "assets/thumbs/IMG_0008.jpg",
-        "photo": "assets/photos/IMG_0008.jpg"
+        "photo": "assets/photos/IMG_0008.jpg",
+        "simulations": []
       }
     },
     {
@@ -245,7 +253,27 @@
           "広場"
         ],
         "thumb": "assets/thumbs/IMG_0009.jpg",
-        "photo": "assets/photos/IMG_0009.jpg"
+        "photo": "assets/photos/IMG_0009.jpg",
+        "simulations": [
+          {
+            "id": "A",
+            "title": "和洋中間・モダンミニマル",
+            "image": "assets/simulations/IMG_0009_A.jpg",
+            "summary": "上下2段ディスク灯具、マットダークブロンズ支柱φ150mm、温白色3000K"
+          },
+          {
+            "id": "B",
+            "title": "和風行灯",
+            "image": "assets/simulations/IMG_0009_B.jpg",
+            "summary": "四角柱の角灯＋切妻屋根、和紙張り風、黒漆塗風支柱、電球色2700K"
+          },
+          {
+            "id": "C",
+            "title": "街路灯撤去・低背分散照明への再編",
+            "image": "assets/simulations/IMG_0009_C.jpg",
+            "summary": "中央モニュメント完全撤去、浅い水盤化、ボラード照明分散配置で広場の見通し改善"
+          }
+        ]
       }
     },
     {
@@ -271,7 +299,8 @@
           "照明"
         ],
         "thumb": "assets/thumbs/IMG_0010.jpg",
-        "photo": "assets/photos/IMG_0010.jpg"
+        "photo": "assets/photos/IMG_0010.jpg",
+        "simulations": []
       }
     },
     {
@@ -297,7 +326,8 @@
           "照明"
         ],
         "thumb": "assets/thumbs/IMG_0011.jpg",
-        "photo": "assets/photos/IMG_0011.jpg"
+        "photo": "assets/photos/IMG_0011.jpg",
+        "simulations": []
       }
     },
     {
@@ -323,7 +353,8 @@
           "史跡"
         ],
         "thumb": "assets/thumbs/IMG_0012.jpg",
-        "photo": "assets/photos/IMG_0012.jpg"
+        "photo": "assets/photos/IMG_0012.jpg",
+        "simulations": []
       }
     },
     {
@@ -347,7 +378,8 @@
         "accuracy": "confirmed",
         "categories": [],
         "thumb": "assets/thumbs/IMG_0013.jpg",
-        "photo": "assets/photos/IMG_0013.jpg"
+        "photo": "assets/photos/IMG_0013.jpg",
+        "simulations": []
       }
     },
     {
@@ -375,7 +407,8 @@
           "植栽"
         ],
         "thumb": "assets/thumbs/IMG_0014.jpg",
-        "photo": "assets/photos/IMG_0014.jpg"
+        "photo": "assets/photos/IMG_0014.jpg",
+        "simulations": []
       }
     },
     {
@@ -402,7 +435,8 @@
           "植栽"
         ],
         "thumb": "assets/thumbs/IMG_0015.jpg",
-        "photo": "assets/photos/IMG_0015.jpg"
+        "photo": "assets/photos/IMG_0015.jpg",
+        "simulations": []
       }
     },
     {
@@ -429,7 +463,8 @@
           "広場"
         ],
         "thumb": "assets/thumbs/IMG_0016.jpg",
-        "photo": "assets/photos/IMG_0016.jpg"
+        "photo": "assets/photos/IMG_0016.jpg",
+        "simulations": []
       }
     },
     {
@@ -456,7 +491,8 @@
           "史跡"
         ],
         "thumb": "assets/thumbs/IMG_0017.jpg",
-        "photo": "assets/photos/IMG_0017.jpg"
+        "photo": "assets/photos/IMG_0017.jpg",
+        "simulations": []
       }
     },
     {
@@ -484,7 +520,8 @@
           "広場"
         ],
         "thumb": "assets/thumbs/IMG_0018.jpg",
-        "photo": "assets/photos/IMG_0018.jpg"
+        "photo": "assets/photos/IMG_0018.jpg",
+        "simulations": []
       }
     },
     {
@@ -511,7 +548,8 @@
           "建築"
         ],
         "thumb": "assets/thumbs/IMG_0019.jpg",
-        "photo": "assets/photos/IMG_0019.jpg"
+        "photo": "assets/photos/IMG_0019.jpg",
+        "simulations": []
       }
     },
     {
@@ -539,7 +577,8 @@
           "建築"
         ],
         "thumb": "assets/thumbs/IMG_0020.jpg",
-        "photo": "assets/photos/IMG_0020.jpg"
+        "photo": "assets/photos/IMG_0020.jpg",
+        "simulations": []
       }
     },
     {
@@ -565,7 +604,8 @@
           "広場"
         ],
         "thumb": "assets/thumbs/IMG_0021.jpg",
-        "photo": "assets/photos/IMG_0021.jpg"
+        "photo": "assets/photos/IMG_0021.jpg",
+        "simulations": []
       }
     },
     {
@@ -591,7 +631,8 @@
           "建築"
         ],
         "thumb": "assets/thumbs/IMG_0022.jpg",
-        "photo": "assets/photos/IMG_0022.jpg"
+        "photo": "assets/photos/IMG_0022.jpg",
+        "simulations": []
       }
     },
     {
@@ -617,7 +658,8 @@
           "サイン"
         ],
         "thumb": "assets/thumbs/IMG_0023.jpg",
-        "photo": "assets/photos/IMG_0023.jpg"
+        "photo": "assets/photos/IMG_0023.jpg",
+        "simulations": []
       }
     },
     {
@@ -644,7 +686,8 @@
           "舗装"
         ],
         "thumb": "assets/thumbs/IMG_0024.jpg",
-        "photo": "assets/photos/IMG_0024.jpg"
+        "photo": "assets/photos/IMG_0024.jpg",
+        "simulations": []
       }
     },
     {
@@ -668,7 +711,8 @@
         "accuracy": "confirmed",
         "categories": [],
         "thumb": "assets/thumbs/IMG_0025.jpg",
-        "photo": "assets/photos/IMG_0025.jpg"
+        "photo": "assets/photos/IMG_0025.jpg",
+        "simulations": []
       }
     },
     {
@@ -694,7 +738,8 @@
           "ストリートファニチャー"
         ],
         "thumb": "assets/thumbs/IMG_0026.jpg",
-        "photo": "assets/photos/IMG_0026.jpg"
+        "photo": "assets/photos/IMG_0026.jpg",
+        "simulations": []
       }
     },
     {
@@ -720,7 +765,8 @@
           "ストリートファニチャー"
         ],
         "thumb": "assets/thumbs/IMG_0027.jpg",
-        "photo": "assets/photos/IMG_0027.jpg"
+        "photo": "assets/photos/IMG_0027.jpg",
+        "simulations": []
       }
     },
     {
@@ -744,7 +790,8 @@
         "accuracy": "confirmed",
         "categories": [],
         "thumb": "assets/thumbs/IMG_0028.jpg",
-        "photo": "assets/photos/IMG_0028.jpg"
+        "photo": "assets/photos/IMG_0028.jpg",
+        "simulations": []
       }
     },
     {
@@ -770,7 +817,8 @@
           "舗装"
         ],
         "thumb": "assets/thumbs/IMG_0029.jpg",
-        "photo": "assets/photos/IMG_0029.jpg"
+        "photo": "assets/photos/IMG_0029.jpg",
+        "simulations": []
       }
     },
     {
@@ -796,7 +844,8 @@
           "舗装"
         ],
         "thumb": "assets/thumbs/IMG_0030.jpg",
-        "photo": "assets/photos/IMG_0030.jpg"
+        "photo": "assets/photos/IMG_0030.jpg",
+        "simulations": []
       }
     },
     {
@@ -823,7 +872,8 @@
           "広場"
         ],
         "thumb": "assets/thumbs/IMG_0031.jpg",
-        "photo": "assets/photos/IMG_0031.jpg"
+        "photo": "assets/photos/IMG_0031.jpg",
+        "simulations": []
       }
     },
     {
@@ -850,7 +900,8 @@
           "植栽"
         ],
         "thumb": "assets/thumbs/IMG_0032.jpg",
-        "photo": "assets/photos/IMG_0032.jpg"
+        "photo": "assets/photos/IMG_0032.jpg",
+        "simulations": []
       }
     },
     {
@@ -877,7 +928,8 @@
           "建築"
         ],
         "thumb": "assets/thumbs/IMG_0033.jpg",
-        "photo": "assets/photos/IMG_0033.jpg"
+        "photo": "assets/photos/IMG_0033.jpg",
+        "simulations": []
       }
     },
     {
@@ -903,7 +955,8 @@
           "照明"
         ],
         "thumb": "assets/thumbs/IMG_0034.jpg",
-        "photo": "assets/photos/IMG_0034.jpg"
+        "photo": "assets/photos/IMG_0034.jpg",
+        "simulations": []
       }
     },
     {
@@ -929,7 +982,8 @@
           "サイン"
         ],
         "thumb": "assets/thumbs/IMG_0035.jpg",
-        "photo": "assets/photos/IMG_0035.jpg"
+        "photo": "assets/photos/IMG_0035.jpg",
+        "simulations": []
       }
     },
     {
@@ -955,7 +1009,8 @@
           "サイン"
         ],
         "thumb": "assets/thumbs/IMG_0036.jpg",
-        "photo": "assets/photos/IMG_0036.jpg"
+        "photo": "assets/photos/IMG_0036.jpg",
+        "simulations": []
       }
     },
     {
@@ -981,7 +1036,8 @@
           "景観阻害物"
         ],
         "thumb": "assets/thumbs/IMG_0037.jpg",
-        "photo": "assets/photos/IMG_0037.jpg"
+        "photo": "assets/photos/IMG_0037.jpg",
+        "simulations": []
       }
     },
     {
@@ -1008,7 +1064,8 @@
           "植栽"
         ],
         "thumb": "assets/thumbs/IMG_0038.jpg",
-        "photo": "assets/photos/IMG_0038.jpg"
+        "photo": "assets/photos/IMG_0038.jpg",
+        "simulations": []
       }
     },
     {
@@ -1035,7 +1092,8 @@
           "建築"
         ],
         "thumb": "assets/thumbs/IMG_0039.jpg",
-        "photo": "assets/photos/IMG_0039.jpg"
+        "photo": "assets/photos/IMG_0039.jpg",
+        "simulations": []
       }
     },
     {
@@ -1061,7 +1119,8 @@
           "サイン"
         ],
         "thumb": "assets/thumbs/IMG_0040.jpg",
-        "photo": "assets/photos/IMG_0040.jpg"
+        "photo": "assets/photos/IMG_0040.jpg",
+        "simulations": []
       }
     },
     {
@@ -1087,7 +1146,8 @@
           "植栽"
         ],
         "thumb": "assets/thumbs/IMG_0041.jpg",
-        "photo": "assets/photos/IMG_0041.jpg"
+        "photo": "assets/photos/IMG_0041.jpg",
+        "simulations": []
       }
     },
     {
@@ -1113,7 +1173,8 @@
           "サイン"
         ],
         "thumb": "assets/thumbs/IMG_0042.jpg",
-        "photo": "assets/photos/IMG_0042.jpg"
+        "photo": "assets/photos/IMG_0042.jpg",
+        "simulations": []
       }
     },
     {
@@ -1139,7 +1200,8 @@
           "サイン"
         ],
         "thumb": "assets/thumbs/IMG_0043.jpg",
-        "photo": "assets/photos/IMG_0043.jpg"
+        "photo": "assets/photos/IMG_0043.jpg",
+        "simulations": []
       }
     },
     {
@@ -1163,7 +1225,8 @@
         "accuracy": "confirmed",
         "categories": [],
         "thumb": "assets/thumbs/IMG_0044.jpg",
-        "photo": "assets/photos/IMG_0044.jpg"
+        "photo": "assets/photos/IMG_0044.jpg",
+        "simulations": []
       }
     },
     {
@@ -1189,7 +1252,8 @@
           "建築"
         ],
         "thumb": "assets/thumbs/IMG_0045.jpg",
-        "photo": "assets/photos/IMG_0045.jpg"
+        "photo": "assets/photos/IMG_0045.jpg",
+        "simulations": []
       }
     },
     {
@@ -1215,7 +1279,8 @@
           "建築"
         ],
         "thumb": "assets/thumbs/IMG_0046.jpg",
-        "photo": "assets/photos/IMG_0046.jpg"
+        "photo": "assets/photos/IMG_0046.jpg",
+        "simulations": []
       }
     },
     {
@@ -1241,7 +1306,8 @@
           "景観阻害物"
         ],
         "thumb": "assets/thumbs/IMG_0047.jpg",
-        "photo": "assets/photos/IMG_0047.jpg"
+        "photo": "assets/photos/IMG_0047.jpg",
+        "simulations": []
       }
     },
     {
@@ -1267,7 +1333,8 @@
           "植栽"
         ],
         "thumb": "assets/thumbs/IMG_0048.jpg",
-        "photo": "assets/photos/IMG_0048.jpg"
+        "photo": "assets/photos/IMG_0048.jpg",
+        "simulations": []
       }
     },
     {
@@ -1293,7 +1360,8 @@
           "サイン"
         ],
         "thumb": "assets/thumbs/IMG_0049.jpg",
-        "photo": "assets/photos/IMG_0049.jpg"
+        "photo": "assets/photos/IMG_0049.jpg",
+        "simulations": []
       }
     },
     {
@@ -1319,7 +1387,8 @@
           "サイン"
         ],
         "thumb": "assets/thumbs/IMG_0050.jpg",
-        "photo": "assets/photos/IMG_0050.jpg"
+        "photo": "assets/photos/IMG_0050.jpg",
+        "simulations": []
       }
     },
     {
@@ -1346,7 +1415,8 @@
           "サイン"
         ],
         "thumb": "assets/thumbs/IMG_0051.jpg",
-        "photo": "assets/photos/IMG_0051.jpg"
+        "photo": "assets/photos/IMG_0051.jpg",
+        "simulations": []
       }
     },
     {
@@ -1373,7 +1443,8 @@
           "植栽"
         ],
         "thumb": "assets/thumbs/IMG_0052.jpg",
-        "photo": "assets/photos/IMG_0052.jpg"
+        "photo": "assets/photos/IMG_0052.jpg",
+        "simulations": []
       }
     },
     {
@@ -1400,7 +1471,8 @@
           "建築"
         ],
         "thumb": "assets/thumbs/IMG_0053.jpg",
-        "photo": "assets/photos/IMG_0053.jpg"
+        "photo": "assets/photos/IMG_0053.jpg",
+        "simulations": []
       }
     },
     {
@@ -1427,7 +1499,8 @@
           "景観阻害物"
         ],
         "thumb": "assets/thumbs/IMG_0054.jpg",
-        "photo": "assets/photos/IMG_0054.jpg"
+        "photo": "assets/photos/IMG_0054.jpg",
+        "simulations": []
       }
     },
     {
@@ -1451,7 +1524,8 @@
         "accuracy": "confirmed",
         "categories": [],
         "thumb": "assets/thumbs/IMG_0055.jpg",
-        "photo": "assets/photos/IMG_0055.jpg"
+        "photo": "assets/photos/IMG_0055.jpg",
+        "simulations": []
       }
     },
     {
@@ -1475,7 +1549,8 @@
         "accuracy": "confirmed",
         "categories": [],
         "thumb": "assets/thumbs/IMG_0056.jpg",
-        "photo": "assets/photos/IMG_0056.jpg"
+        "photo": "assets/photos/IMG_0056.jpg",
+        "simulations": []
       }
     },
     {
@@ -1499,7 +1574,8 @@
         "accuracy": "confirmed",
         "categories": [],
         "thumb": "assets/thumbs/IMG_0057.jpg",
-        "photo": "assets/photos/IMG_0057.jpg"
+        "photo": "assets/photos/IMG_0057.jpg",
+        "simulations": []
       }
     },
     {
@@ -1523,7 +1599,8 @@
         "accuracy": "confirmed",
         "categories": [],
         "thumb": "assets/thumbs/IMG_0058.jpg",
-        "photo": "assets/photos/IMG_0058.jpg"
+        "photo": "assets/photos/IMG_0058.jpg",
+        "simulations": []
       }
     },
     {
@@ -1551,7 +1628,8 @@
           "建築"
         ],
         "thumb": "assets/thumbs/IMG_0059.jpg",
-        "photo": "assets/photos/IMG_0059.jpg"
+        "photo": "assets/photos/IMG_0059.jpg",
+        "simulations": []
       }
     },
     {
@@ -1577,7 +1655,8 @@
           "照明"
         ],
         "thumb": "assets/thumbs/IMG_0060.jpg",
-        "photo": "assets/photos/IMG_0060.jpg"
+        "photo": "assets/photos/IMG_0060.jpg",
+        "simulations": []
       }
     },
     {
@@ -1603,7 +1682,8 @@
           "景観阻害物"
         ],
         "thumb": "assets/thumbs/IMG_0061.jpg",
-        "photo": "assets/photos/IMG_0061.jpg"
+        "photo": "assets/photos/IMG_0061.jpg",
+        "simulations": []
       }
     },
     {
@@ -1630,7 +1710,8 @@
           "舗装"
         ],
         "thumb": "assets/thumbs/IMG_0062.jpg",
-        "photo": "assets/photos/IMG_0062.jpg"
+        "photo": "assets/photos/IMG_0062.jpg",
+        "simulations": []
       }
     },
     {
@@ -1658,7 +1739,8 @@
           "史跡"
         ],
         "thumb": "assets/thumbs/IMG_0063.jpg",
-        "photo": "assets/photos/IMG_0063.jpg"
+        "photo": "assets/photos/IMG_0063.jpg",
+        "simulations": []
       }
     },
     {
@@ -1682,7 +1764,8 @@
         "accuracy": "confirmed",
         "categories": [],
         "thumb": "assets/thumbs/IMG_0064.jpg",
-        "photo": "assets/photos/IMG_0064.jpg"
+        "photo": "assets/photos/IMG_0064.jpg",
+        "simulations": []
       }
     },
     {
@@ -1709,7 +1792,8 @@
           "建築"
         ],
         "thumb": "assets/thumbs/IMG_0065.jpg",
-        "photo": "assets/photos/IMG_0065.jpg"
+        "photo": "assets/photos/IMG_0065.jpg",
+        "simulations": []
       }
     },
     {
@@ -1735,7 +1819,8 @@
           "サイン"
         ],
         "thumb": "assets/thumbs/IMG_0066.jpg",
-        "photo": "assets/photos/IMG_0066.jpg"
+        "photo": "assets/photos/IMG_0066.jpg",
+        "simulations": []
       }
     },
     {
@@ -1759,7 +1844,8 @@
         "accuracy": "confirmed",
         "categories": [],
         "thumb": "assets/thumbs/IMG_0067.jpg",
-        "photo": "assets/photos/IMG_0067.jpg"
+        "photo": "assets/photos/IMG_0067.jpg",
+        "simulations": []
       }
     },
     {
@@ -1786,7 +1872,8 @@
           "史跡"
         ],
         "thumb": "assets/thumbs/IMG_0068.jpg",
-        "photo": "assets/photos/IMG_0068.jpg"
+        "photo": "assets/photos/IMG_0068.jpg",
+        "simulations": []
       }
     },
     {
@@ -1812,7 +1899,8 @@
           "サイン"
         ],
         "thumb": "assets/thumbs/IMG_0069.jpg",
-        "photo": "assets/photos/IMG_0069.jpg"
+        "photo": "assets/photos/IMG_0069.jpg",
+        "simulations": []
       }
     },
     {
@@ -1839,7 +1927,8 @@
           "史跡"
         ],
         "thumb": "assets/thumbs/IMG_0070.jpg",
-        "photo": "assets/photos/IMG_0070.jpg"
+        "photo": "assets/photos/IMG_0070.jpg",
+        "simulations": []
       }
     },
     {
@@ -1867,7 +1956,8 @@
           "植栽"
         ],
         "thumb": "assets/thumbs/IMG_0071.jpg",
-        "photo": "assets/photos/IMG_0071.jpg"
+        "photo": "assets/photos/IMG_0071.jpg",
+        "simulations": []
       }
     },
     {
@@ -1894,7 +1984,8 @@
           "ストリートファニチャー"
         ],
         "thumb": "assets/thumbs/IMG_0072.jpg",
-        "photo": "assets/photos/IMG_0072.jpg"
+        "photo": "assets/photos/IMG_0072.jpg",
+        "simulations": []
       }
     },
     {
@@ -1920,7 +2011,8 @@
           "サイン"
         ],
         "thumb": "assets/thumbs/IMG_0073.jpg",
-        "photo": "assets/photos/IMG_0073.jpg"
+        "photo": "assets/photos/IMG_0073.jpg",
+        "simulations": []
       }
     },
     {
@@ -1946,7 +2038,8 @@
           "サイン"
         ],
         "thumb": "assets/thumbs/IMG_0074.jpg",
-        "photo": "assets/photos/IMG_0074.jpg"
+        "photo": "assets/photos/IMG_0074.jpg",
+        "simulations": []
       }
     },
     {
@@ -1970,7 +2063,8 @@
         "accuracy": "confirmed",
         "categories": [],
         "thumb": "assets/thumbs/IMG_0075.jpg",
-        "photo": "assets/photos/IMG_0075.jpg"
+        "photo": "assets/photos/IMG_0075.jpg",
+        "simulations": []
       }
     },
     {
@@ -1994,7 +2088,8 @@
         "accuracy": "confirmed",
         "categories": [],
         "thumb": "assets/thumbs/IMG_0076.jpg",
-        "photo": "assets/photos/IMG_0076.jpg"
+        "photo": "assets/photos/IMG_0076.jpg",
+        "simulations": []
       }
     },
     {
@@ -2021,7 +2116,8 @@
           "サイン"
         ],
         "thumb": "assets/thumbs/IMG_0077.jpg",
-        "photo": "assets/photos/IMG_0077.jpg"
+        "photo": "assets/photos/IMG_0077.jpg",
+        "simulations": []
       }
     },
     {
@@ -2045,7 +2141,8 @@
         "accuracy": "confirmed",
         "categories": [],
         "thumb": "assets/thumbs/IMG_0078.jpg",
-        "photo": "assets/photos/IMG_0078.jpg"
+        "photo": "assets/photos/IMG_0078.jpg",
+        "simulations": []
       }
     },
     {
@@ -2069,7 +2166,8 @@
         "accuracy": "inherited",
         "categories": [],
         "thumb": "assets/thumbs/IMG_0079.jpg",
-        "photo": "assets/photos/IMG_0079.jpg"
+        "photo": "assets/photos/IMG_0079.jpg",
+        "simulations": []
       }
     },
     {
@@ -2093,7 +2191,8 @@
         "accuracy": "confirmed",
         "categories": [],
         "thumb": "assets/thumbs/IMG_0080.jpg",
-        "photo": "assets/photos/IMG_0080.jpg"
+        "photo": "assets/photos/IMG_0080.jpg",
+        "simulations": []
       }
     },
     {
@@ -2120,7 +2219,8 @@
           "植栽"
         ],
         "thumb": "assets/thumbs/IMG_0081.jpg",
-        "photo": "assets/photos/IMG_0081.jpg"
+        "photo": "assets/photos/IMG_0081.jpg",
+        "simulations": []
       }
     },
     {
@@ -2146,7 +2246,8 @@
           "植栽"
         ],
         "thumb": "assets/thumbs/IMG_0082.jpg",
-        "photo": "assets/photos/IMG_0082.jpg"
+        "photo": "assets/photos/IMG_0082.jpg",
+        "simulations": []
       }
     },
     {
@@ -2172,7 +2273,8 @@
           "建築"
         ],
         "thumb": "assets/thumbs/IMG_0083.jpg",
-        "photo": "assets/photos/IMG_0083.jpg"
+        "photo": "assets/photos/IMG_0083.jpg",
+        "simulations": []
       }
     },
     {
@@ -2196,7 +2298,8 @@
         "accuracy": "confirmed",
         "categories": [],
         "thumb": "assets/thumbs/IMG_0084.jpg",
-        "photo": "assets/photos/IMG_0084.jpg"
+        "photo": "assets/photos/IMG_0084.jpg",
+        "simulations": []
       }
     },
     {
@@ -2222,7 +2325,8 @@
           "サイン"
         ],
         "thumb": "assets/thumbs/IMG_0085.jpg",
-        "photo": "assets/photos/IMG_0085.jpg"
+        "photo": "assets/photos/IMG_0085.jpg",
+        "simulations": []
       }
     },
     {
@@ -2250,7 +2354,8 @@
           "史跡"
         ],
         "thumb": "assets/thumbs/IMG_0086.jpg",
-        "photo": "assets/photos/IMG_0086.jpg"
+        "photo": "assets/photos/IMG_0086.jpg",
+        "simulations": []
       }
     },
     {
@@ -2278,7 +2383,8 @@
           "史跡"
         ],
         "thumb": "assets/thumbs/IMG_0087.jpg",
-        "photo": "assets/photos/IMG_0087.jpg"
+        "photo": "assets/photos/IMG_0087.jpg",
+        "simulations": []
       }
     },
     {
@@ -2305,7 +2411,8 @@
           "建築"
         ],
         "thumb": "assets/thumbs/IMG_0088.jpg",
-        "photo": "assets/photos/IMG_0088.jpg"
+        "photo": "assets/photos/IMG_0088.jpg",
+        "simulations": []
       }
     },
     {
@@ -2333,7 +2440,8 @@
           "建築"
         ],
         "thumb": "assets/thumbs/IMG_0089.jpg",
-        "photo": "assets/photos/IMG_0089.jpg"
+        "photo": "assets/photos/IMG_0089.jpg",
+        "simulations": []
       }
     },
     {
@@ -2360,7 +2468,8 @@
           "史跡"
         ],
         "thumb": "assets/thumbs/IMG_0090.jpg",
-        "photo": "assets/photos/IMG_0090.jpg"
+        "photo": "assets/photos/IMG_0090.jpg",
+        "simulations": []
       }
     },
     {
@@ -2387,7 +2496,8 @@
           "史跡"
         ],
         "thumb": "assets/thumbs/IMG_0091.jpg",
-        "photo": "assets/photos/IMG_0091.jpg"
+        "photo": "assets/photos/IMG_0091.jpg",
+        "simulations": []
       }
     },
     {
@@ -2413,7 +2523,8 @@
           "史跡"
         ],
         "thumb": "assets/thumbs/IMG_0092.jpg",
-        "photo": "assets/photos/IMG_0092.jpg"
+        "photo": "assets/photos/IMG_0092.jpg",
+        "simulations": []
       }
     },
     {
@@ -2439,7 +2550,8 @@
           "サイン"
         ],
         "thumb": "assets/thumbs/IMG_0093.jpg",
-        "photo": "assets/photos/IMG_0093.jpg"
+        "photo": "assets/photos/IMG_0093.jpg",
+        "simulations": []
       }
     },
     {
@@ -2465,7 +2577,8 @@
           "舗装"
         ],
         "thumb": "assets/thumbs/IMG_0094.jpg",
-        "photo": "assets/photos/IMG_0094.jpg"
+        "photo": "assets/photos/IMG_0094.jpg",
+        "simulations": []
       }
     },
     {
@@ -2489,7 +2602,8 @@
         "accuracy": "confirmed",
         "categories": [],
         "thumb": "assets/thumbs/IMG_0095.jpg",
-        "photo": "assets/photos/IMG_0095.jpg"
+        "photo": "assets/photos/IMG_0095.jpg",
+        "simulations": []
       }
     },
     {
@@ -2515,7 +2629,8 @@
           "植栽"
         ],
         "thumb": "assets/thumbs/IMG_0096.jpg",
-        "photo": "assets/photos/IMG_0096.jpg"
+        "photo": "assets/photos/IMG_0096.jpg",
+        "simulations": []
       }
     },
     {
@@ -2541,7 +2656,8 @@
           "サイン"
         ],
         "thumb": "assets/thumbs/IMG_0097.jpg",
-        "photo": "assets/photos/IMG_0097.jpg"
+        "photo": "assets/photos/IMG_0097.jpg",
+        "simulations": []
       }
     },
     {
@@ -2567,7 +2683,8 @@
           "サイン"
         ],
         "thumb": "assets/thumbs/IMG_0098.jpg",
-        "photo": "assets/photos/IMG_0098.jpg"
+        "photo": "assets/photos/IMG_0098.jpg",
+        "simulations": []
       }
     },
     {
@@ -2593,7 +2710,8 @@
           "建築"
         ],
         "thumb": "assets/thumbs/IMG_0099.jpg",
-        "photo": "assets/photos/IMG_0099.jpg"
+        "photo": "assets/photos/IMG_0099.jpg",
+        "simulations": []
       }
     },
     {
@@ -2619,7 +2737,8 @@
           "照明"
         ],
         "thumb": "assets/thumbs/IMG_0100.jpg",
-        "photo": "assets/photos/IMG_0100.jpg"
+        "photo": "assets/photos/IMG_0100.jpg",
+        "simulations": []
       }
     },
     {
@@ -2645,7 +2764,8 @@
           "植栽"
         ],
         "thumb": "assets/thumbs/IMG_0101.jpg",
-        "photo": "assets/photos/IMG_0101.jpg"
+        "photo": "assets/photos/IMG_0101.jpg",
+        "simulations": []
       }
     },
     {
@@ -2669,7 +2789,8 @@
         "accuracy": "confirmed",
         "categories": [],
         "thumb": "assets/thumbs/IMG_0102.jpg",
-        "photo": "assets/photos/IMG_0102.jpg"
+        "photo": "assets/photos/IMG_0102.jpg",
+        "simulations": []
       }
     },
     {
@@ -2696,7 +2817,8 @@
           "植栽"
         ],
         "thumb": "assets/thumbs/IMG_0103.jpg",
-        "photo": "assets/photos/IMG_0103.jpg"
+        "photo": "assets/photos/IMG_0103.jpg",
+        "simulations": []
       }
     },
     {
@@ -2722,7 +2844,8 @@
           "サイン"
         ],
         "thumb": "assets/thumbs/IMG_0104.jpg",
-        "photo": "assets/photos/IMG_0104.jpg"
+        "photo": "assets/photos/IMG_0104.jpg",
+        "simulations": []
       }
     },
     {
@@ -2749,7 +2872,8 @@
           "広場"
         ],
         "thumb": "assets/thumbs/IMG_0105.jpg",
-        "photo": "assets/photos/IMG_0105.jpg"
+        "photo": "assets/photos/IMG_0105.jpg",
+        "simulations": []
       }
     },
     {
@@ -2775,7 +2899,8 @@
           "広場"
         ],
         "thumb": "assets/thumbs/IMG_0106.jpg",
-        "photo": "assets/photos/IMG_0106.jpg"
+        "photo": "assets/photos/IMG_0106.jpg",
+        "simulations": []
       }
     },
     {
@@ -2801,7 +2926,8 @@
           "広場"
         ],
         "thumb": "assets/thumbs/IMG_0107.jpg",
-        "photo": "assets/photos/IMG_0107.jpg"
+        "photo": "assets/photos/IMG_0107.jpg",
+        "simulations": []
       }
     },
     {
@@ -2825,7 +2951,8 @@
         "accuracy": "confirmed",
         "categories": [],
         "thumb": "assets/thumbs/IMG_0108.jpg",
-        "photo": "assets/photos/IMG_0108.jpg"
+        "photo": "assets/photos/IMG_0108.jpg",
+        "simulations": []
       }
     },
     {
@@ -2851,7 +2978,8 @@
           "史跡"
         ],
         "thumb": "assets/thumbs/IMG_0109.jpg",
-        "photo": "assets/photos/IMG_0109.jpg"
+        "photo": "assets/photos/IMG_0109.jpg",
+        "simulations": []
       }
     },
     {
@@ -2878,7 +3006,8 @@
           "史跡"
         ],
         "thumb": "assets/thumbs/IMG_0110.jpg",
-        "photo": "assets/photos/IMG_0110.jpg"
+        "photo": "assets/photos/IMG_0110.jpg",
+        "simulations": []
       }
     },
     {
@@ -2906,7 +3035,8 @@
           "史跡"
         ],
         "thumb": "assets/thumbs/IMG_0111.jpg",
-        "photo": "assets/photos/IMG_0111.jpg"
+        "photo": "assets/photos/IMG_0111.jpg",
+        "simulations": []
       }
     },
     {
@@ -2934,7 +3064,8 @@
           "史跡"
         ],
         "thumb": "assets/thumbs/IMG_0112.jpg",
-        "photo": "assets/photos/IMG_0112.jpg"
+        "photo": "assets/photos/IMG_0112.jpg",
+        "simulations": []
       }
     },
     {
@@ -2960,7 +3091,8 @@
           "ストリートファニチャー"
         ],
         "thumb": "assets/thumbs/IMG_0113.jpg",
-        "photo": "assets/photos/IMG_0113.jpg"
+        "photo": "assets/photos/IMG_0113.jpg",
+        "simulations": []
       }
     },
     {
@@ -2987,7 +3119,8 @@
           "史跡"
         ],
         "thumb": "assets/thumbs/IMG_0114.jpg",
-        "photo": "assets/photos/IMG_0114.jpg"
+        "photo": "assets/photos/IMG_0114.jpg",
+        "simulations": []
       }
     },
     {
@@ -3014,7 +3147,8 @@
           "ストリートファニチャー"
         ],
         "thumb": "assets/thumbs/IMG_0115.jpg",
-        "photo": "assets/photos/IMG_0115.jpg"
+        "photo": "assets/photos/IMG_0115.jpg",
+        "simulations": []
       }
     },
     {
@@ -3042,7 +3176,8 @@
           "ストリートファニチャー"
         ],
         "thumb": "assets/thumbs/IMG_0116.jpg",
-        "photo": "assets/photos/IMG_0116.jpg"
+        "photo": "assets/photos/IMG_0116.jpg",
+        "simulations": []
       }
     },
     {
@@ -3071,7 +3206,8 @@
           "建築"
         ],
         "thumb": "assets/thumbs/IMG_0117.jpg",
-        "photo": "assets/photos/IMG_0117.jpg"
+        "photo": "assets/photos/IMG_0117.jpg",
+        "simulations": []
       }
     }
   ]

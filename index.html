@@ -16,15 +16,21 @@
   #app { display: flex; flex-direction: column; height: 100vh; }
   header {
     background: #1f3a68; color: #fff; padding: 8px 14px;
-    display: flex; align-items: center; gap: 12px;
+    display: flex; align-items: center; gap: 12px; flex-shrink: 0;
   }
   header h1 { margin: 0; font-size: 15px; font-weight: 600; }
   header .meta { font-size: 11px; opacity: 0.8; }
+  header .toggle-sidebar {
+    margin-left: auto; background: rgba(255,255,255,0.2); border: 1px solid rgba(255,255,255,0.4);
+    color: #fff; padding: 3px 10px; border-radius: 4px; cursor: pointer; font-size: 11px;
+  }
+  header .toggle-sidebar:hover { background: rgba(255,255,255,0.3); }
+
   #toolbar {
     background: #f4f6fa; padding: 6px 12px;
     border-bottom: 1px solid #d8dde6;
     display: flex; flex-wrap: wrap; gap: 6px; align-items: center;
-    font-size: 12px;
+    font-size: 12px; flex-shrink: 0;
   }
   #toolbar .label { color: #555; margin-right: 4px; font-weight: 600; }
   #toolbar label.cat {
@@ -35,13 +41,56 @@
   }
   #toolbar label.cat:hover { background: #eef2f8; }
   #toolbar label.cat input { margin: 0; }
+  #toolbar label.option {
+    display: inline-flex; align-items: center; gap: 4px;
+    padding: 2px 8px; border-radius: 4px;
+    background: #fff; border: 1px solid #c7cfdb;
+    cursor: pointer; user-select: none;
+  }
+  #toolbar label.option:hover { background: #eef2f8; }
   #toolbar .stats { margin-left: auto; color: #666; font-size: 11px; }
   #toolbar button {
     border: 1px solid #c7cfdb; background: #fff;
     padding: 3px 10px; border-radius: 4px; cursor: pointer; font-size: 11px;
   }
   #toolbar button:hover { background: #eef2f8; }
+
+  #main { display: flex; flex: 1; min-height: 0; }
+  #sidebar {
+    width: 300px; flex-shrink: 0;
+    background: #fff; border-right: 1px solid #d8dde6;
+    overflow-y: auto;
+    transition: margin-left 0.2s;
+  }
+  #sidebar.hidden { margin-left: -300px; }
+  #sidebar .filter-input {
+    width: 100%; padding: 6px 10px; border: 0; border-bottom: 1px solid #e0e4ea;
+    font-size: 12px; outline: none;
+  }
+  #sidebar .item {
+    display: flex; gap: 8px; padding: 6px 10px;
+    border-bottom: 1px solid #f0f2f6;
+    cursor: pointer; align-items: flex-start;
+  }
+  #sidebar .item:hover { background: #eef4fb; }
+  #sidebar .item.active { background: #d6e4f7; }
+  #sidebar .item img {
+    width: 60px; height: 45px; object-fit: cover; border-radius: 3px; flex-shrink: 0;
+  }
+  #sidebar .item .info { font-size: 11px; line-height: 1.4; min-width: 0; flex: 1; }
+  #sidebar .item .file { font-weight: 600; color: #1f3a68; font-size: 11px; }
+  #sidebar .item .time { color: #888; font-size: 10px; margin-left: 4px; }
+  #sidebar .item .place { color: #555; font-size: 10px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  #sidebar .item .badges { display: flex; gap: 2px; margin-top: 2px; flex-wrap: wrap; }
+  #sidebar .item .badge {
+    background: #1f3a68; color: #fff; padding: 0 5px; border-radius: 6px; font-size: 9px;
+  }
+  #sidebar .item .sim-badge {
+    background: #e67e22; color: #fff; padding: 0 5px; border-radius: 6px; font-size: 9px;
+  }
+
   #map { flex: 1; }
+
   .leaflet-popup-content {
     margin: 8px 10px; font-size: 12px; line-height: 1.5;
     width: 260px !important;
@@ -72,26 +121,63 @@
   .acc-confirmed { background: #d4edda; color: #155724; }
   .acc-inherited { background: #fff3cd; color: #856404; }
   .acc-interpolated { background: #f8d7da; color: #721c24; }
+  .acc-extrapolated { background: #f8d7da; color: #721c24; }
+  .acc-fallback { background: #e2e3e5; color: #383d41; }
+
+  .popup-sims {
+    margin-top: 6px; padding-top: 6px; border-top: 1px dashed #c7cfdb;
+  }
+  .popup-sims .sim-h { font-size: 10px; color: #e67e22; font-weight: 700; margin-bottom: 3px; }
+  .popup-sims .sim-row { display: flex; flex-wrap: wrap; gap: 4px; }
+  .popup-sims button {
+    background: #fff7ed; border: 1px solid #e67e22; color: #b35400;
+    padding: 2px 8px; border-radius: 4px; cursor: pointer; font-size: 11px; font-weight: 600;
+  }
+  .popup-sims button:hover { background: #ffe9d1; }
+
   /* 拡大モーダル */
   #modal {
     display: none; position: fixed; inset: 0;
-    background: rgba(0,0,0,0.85); z-index: 9999;
-    align-items: center; justify-content: center; flex-direction: column;
-    cursor: zoom-out; padding: 20px;
+    background: rgba(0,0,0,0.92); z-index: 9999;
+    flex-direction: column;
+    padding: 12px;
   }
   #modal.show { display: flex; }
-  #modal img {
-    max-width: 95%; max-height: 85%;
+  #modal-tabs {
+    display: flex; flex-wrap: wrap; gap: 4px; justify-content: center; margin-bottom: 8px;
+  }
+  #modal-tabs button {
+    background: rgba(255,255,255,0.15); border: 1px solid rgba(255,255,255,0.3);
+    color: #fff; padding: 4px 12px; border-radius: 4px; cursor: pointer; font-size: 12px;
+  }
+  #modal-tabs button:hover { background: rgba(255,255,255,0.25); }
+  #modal-tabs button.active {
+    background: #e67e22; border-color: #e67e22;
+  }
+  #modal-tabs button.original.active { background: #1f3a68; border-color: #1f3a68; }
+  #modal-image-wrap {
+    flex: 1; display: flex; align-items: center; justify-content: center;
+    cursor: zoom-out; min-height: 0;
+    position: relative;
+  }
+  #modal-img {
+    max-width: 100%; max-height: 100%;
     box-shadow: 0 4px 32px rgba(0,0,0,0.5);
     border-radius: 4px;
   }
-  #modal .caption {
-    color: #fff; margin-top: 12px; font-size: 13px;
+  #modal-caption {
+    color: #fff; margin-top: 8px; font-size: 12px;
     background: rgba(0,0,0,0.5); padding: 6px 14px; border-radius: 4px;
+    text-align: center; align-self: center; max-width: 90%;
   }
-  /* カテゴリ色分け */
-  .leaflet-marker-icon.cat-default { filter: hue-rotate(0deg); }
-  /* マーカー(div icon) */
+  #modal-close {
+    position: absolute; top: 8px; right: 12px; z-index: 10;
+    background: rgba(255,255,255,0.15); border: 1px solid rgba(255,255,255,0.3);
+    color: #fff; width: 32px; height: 32px; border-radius: 50%; cursor: pointer; font-size: 16px;
+  }
+  #modal-close:hover { background: rgba(255,255,255,0.3); }
+
+  /* マーカー */
   .photo-marker {
     width: 22px; height: 22px;
     background: #e74c3c; border: 2px solid #fff;
@@ -102,11 +188,24 @@
   .photo-marker.acc-inherited   { background: #f39c12; }
   .photo-marker.acc-interpolated{ background: #e74c3c; }
   .photo-marker.acc-extrapolated{ background: #c0392b; }
+  .photo-marker.acc-fallback    { background: #7f8c8d; }
+  .photo-marker.has-sim {
+    border: 3px solid #e67e22;
+    box-shadow: 0 2px 6px rgba(230,126,34,0.6);
+  }
+
+  @media (max-width: 768px) {
+    #sidebar { position: absolute; z-index: 500; top: 0; bottom: 0; left: 0; height: 100%; box-shadow: 2px 0 8px rgba(0,0,0,0.2); }
+    #sidebar.hidden { left: -300px; margin-left: 0; box-shadow: none; }
+    header h1 { font-size: 13px; }
+    header .meta { display: none; }
+  }
 </style>
 </head>
 <body>
 <div id="app">
   <header>
+    <button class="toggle-sidebar" id="btn-sidebar">☰ 一覧</button>
     <h1>三原駅周辺 現地写真マップ</h1>
     <div class="meta">2026-04-27 踏査・全117枚 / 撮影：青木</div>
   </header>
@@ -115,13 +214,26 @@
     <span id="cat-buttons"></span>
     <button id="all-on">全選択</button>
     <button id="all-off">全解除</button>
+    <label class="option"><input type="checkbox" id="show-route" checked>踏査ルート線</label>
+    <label class="option"><input type="checkbox" id="show-sim-only">シミュ付きのみ</label>
     <span class="stats" id="stats"></span>
   </div>
-  <div id="map"></div>
+  <div id="main">
+    <div id="sidebar">
+      <input type="text" class="filter-input" id="sidebar-search" placeholder="🔍 ファイル名・場所・キーワード検索">
+      <div id="sidebar-list"></div>
+    </div>
+    <div id="map"></div>
+  </div>
 </div>
+
 <div id="modal">
-  <img id="modal-img" alt="">
-  <div class="caption" id="modal-caption"></div>
+  <button id="modal-close">×</button>
+  <div id="modal-tabs"></div>
+  <div id="modal-image-wrap">
+    <img id="modal-img" alt="">
+  </div>
+  <div id="modal-caption"></div>
 </div>
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
@@ -131,41 +243,46 @@
 const CATEGORIES = ["照明","舗装","サイン","植栽","ストリートファニチャー","史跡","景観阻害物","建築","広場"];
 
 // ベースマップ
-const gsiStd = L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/std/{z}/{x}/{y}.png', {
-  attribution: "<a href='https://maps.gsi.go.jp/development/ichiran.html'>地理院タイル</a>",
+const osm = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
   maxZoom: 19
 });
 const gsiPale = L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/pale/{z}/{x}/{y}.png', {
   attribution: "<a href='https://maps.gsi.go.jp/development/ichiran.html'>地理院タイル</a>",
   maxZoom: 18
 });
-const osm = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-  attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+const gsiStd = L.tileLayer('https://cyberjapandata.gsi.go.jp/xyz/std/{z}/{x}/{y}.png', {
+  attribution: "<a href='https://maps.gsi.go.jp/development/ichiran.html'>地理院タイル</a>",
   maxZoom: 19
 });
 
 const map = L.map('map', {
   center: [34.3974, 133.0792],
   zoom: 17,
-  layers: [gsiPale]
+  layers: [osm]   // デフォルト = OSM
 });
 L.control.layers({
+  'OpenStreetMap': osm,
   '地理院タイル(淡色)': gsiPale,
-  '地理院タイル(標準)': gsiStd,
-  'OpenStreetMap': osm
+  '地理院タイル(標準)': gsiStd
 }, null, {position: 'topright', collapsed: false}).addTo(map);
 
-// データ読み込み
 let allFeatures = [];
 let markers = [];
+let routeLine = null;
 const selectedCats = new Set(CATEGORIES);
+let simOnlyMode = false;
+let textFilter = '';
+let activeMarker = null;
 
+// ─── マーカー生成 ─────────────────
 function makeMarker(f) {
   const p = f.properties;
   const accClass = `acc-${p.accuracy}`;
+  const simClass = (p.simulations && p.simulations.length) ? 'has-sim' : '';
   const icon = L.divIcon({
     className: '',
-    html: `<div class="photo-marker ${accClass}"></div>`,
+    html: `<div class="photo-marker ${accClass} ${simClass}"></div>`,
     iconSize: [22, 22],
     iconAnchor: [11, 22],
     popupAnchor: [0, -20]
@@ -173,46 +290,107 @@ function makeMarker(f) {
   const m = L.marker([f.geometry.coordinates[1], f.geometry.coordinates[0]], {icon});
   m.featureProps = p;
   m.bindPopup(() => buildPopup(p), {maxWidth: 280});
+  m.on('popupopen', () => { activeMarker = m; highlightSidebarItem(p.file); });
   return m;
 }
 
 function buildPopup(p) {
   const accLabel = {
-    confirmed: '辞書一致',
-    inherited: '参照継承',
-    interpolated: '時系列補間',
-    extrapolated: '外挿',
-    fallback: 'フォールバック'
+    confirmed: '辞書一致', inherited: '参照継承',
+    interpolated: '時系列補間', extrapolated: '外挿', fallback: 'フォールバック'
   }[p.accuracy] || p.accuracy;
   const cats = p.categories.map(c => `<span>${c}</span>`).join('');
+  const fileEsc = JSON.stringify(p.file);
+  const sims = (p.simulations || []);
+  const simBlock = sims.length === 0 ? '' : `
+    <div class="popup-sims">
+      <div class="sim-h">▶ 景観シミュレーション ${sims.length}案</div>
+      <div class="sim-row">
+        ${sims.map((s, i) => `<button onclick="openModalForFeature(${fileEsc}, ${i+1})">${s.id}：${s.title}</button>`).join('')}
+      </div>
+    </div>
+  `;
   return `
-    <img class="popup-thumb" src="${p.thumb}" data-photo="${p.photo}" data-file="${p.file}"
-         onclick="openModal('${p.photo}', '${p.file}', '${p.time}')" />
+    <img class="popup-thumb" src="${p.thumb}" onclick="openModalForFeature(${fileEsc}, 0)" />
     <div><span class="popup-file">${p.file}</span><span class="popup-time">${p.time}</span>
          <span class="popup-acc acc-${p.accuracy}">${accLabel}</span></div>
     <div class="popup-section"><span class="h">場所</span><br>${p.place_name || '-'}</div>
     <div class="popup-section"><span class="h">業務関連ポイント</span><br>${p.business_point || '-'}</div>
     <div class="popup-section"><span class="h">シミュレーション案</span><br>${p.simulation_idea || '-'}</div>
     <div class="popup-cats">${cats}</div>
+    ${simBlock}
   `;
 }
 
-function openModal(photo, file, time) {
-  document.getElementById('modal-img').src = photo;
-  document.getElementById('modal-caption').textContent = `${file}（${time}）`;
+// ─── モーダル（タブ切替） ─────────────────
+let modalState = { variants: [], idx: 0 };
+
+function openModalForFeature(file, idx) {
+  const f = allFeatures.find(ff => ff.properties.file === file);
+  if (!f) return;
+  const p = f.properties;
+  modalState.variants = [
+    { id: 'orig', title: '元写真', image: p.photo, summary: p.subject || '' },
+    ...(p.simulations || [])
+  ];
+  modalState.idx = idx || 0;
+  modalState.fileLabel = p.file;
+  buildModalTabs();
+  showModalVariant(modalState.idx);
   document.getElementById('modal').classList.add('show');
 }
-document.getElementById('modal').addEventListener('click', () => {
+
+function buildModalTabs() {
+  const tabs = document.getElementById('modal-tabs');
+  if (modalState.variants.length <= 1) {
+    tabs.style.display = 'none';
+    return;
+  }
+  tabs.style.display = 'flex';
+  tabs.innerHTML = modalState.variants.map((v, i) => {
+    const cls = (i === 0) ? 'original' : '';
+    const label = (i === 0) ? '元写真' : `${v.id}：${v.title}`;
+    return `<button class="${cls}" onclick="showModalVariant(${i})">${label}</button>`;
+  }).join('');
+}
+
+function showModalVariant(idx) {
+  const v = modalState.variants[idx];
+  document.getElementById('modal-img').src = v.image;
+  const captionParts = [modalState.fileLabel, v.title];
+  if (v.summary) captionParts.push(v.summary);
+  document.getElementById('modal-caption').textContent = captionParts.join('  ／  ');
+  document.querySelectorAll('#modal-tabs button').forEach((b, i) => {
+    b.classList.toggle('active', i === idx);
+  });
+  modalState.idx = idx;
+}
+
+document.getElementById('modal-close').addEventListener('click', e => {
+  e.stopPropagation();
+  document.getElementById('modal').classList.remove('show');
+});
+document.getElementById('modal-image-wrap').addEventListener('click', () => {
   document.getElementById('modal').classList.remove('show');
 });
 
+// ─── フィルタ ─────────────────
 function applyFilter() {
   let visible = 0;
   markers.forEach(m => {
-    const cats = m.featureProps.categories;
-    const show = cats.length === 0
-      ? selectedCats.has('未分類')
-      : cats.some(c => selectedCats.has(c));
+    const p = m.featureProps;
+    let show = true;
+    if (simOnlyMode && (!p.simulations || p.simulations.length === 0)) show = false;
+    if (show) {
+      const cats = p.categories;
+      const catShow = cats.length === 0 ? selectedCats.has('未分類')
+                                        : cats.some(c => selectedCats.has(c));
+      if (!catShow) show = false;
+    }
+    if (show && textFilter) {
+      const blob = `${p.file} ${p.location_text} ${p.place_name} ${p.business_point} ${p.subject}`.toLowerCase();
+      if (!blob.includes(textFilter)) show = false;
+    }
     if (show) {
       if (!map.hasLayer(m)) m.addTo(map);
       visible++;
@@ -221,6 +399,7 @@ function applyFilter() {
     }
   });
   document.getElementById('stats').textContent = `表示: ${visible} / ${allFeatures.length}`;
+  renderSidebar();
 }
 
 function buildCatButtons(catCounts) {
@@ -241,20 +420,84 @@ function buildCatButtons(catCounts) {
 }
 
 document.getElementById('all-on').addEventListener('click', () => {
-  document.querySelectorAll('#cat-buttons input').forEach(i => {
-    i.checked = true;
-    selectedCats.add(i.dataset.cat);
-  });
+  document.querySelectorAll('#cat-buttons input').forEach(i => { i.checked = true; selectedCats.add(i.dataset.cat); });
   applyFilter();
 });
 document.getElementById('all-off').addEventListener('click', () => {
-  document.querySelectorAll('#cat-buttons input').forEach(i => {
-    i.checked = false;
-    selectedCats.delete(i.dataset.cat);
-  });
+  document.querySelectorAll('#cat-buttons input').forEach(i => { i.checked = false; selectedCats.delete(i.dataset.cat); });
   applyFilter();
 });
+document.getElementById('show-sim-only').addEventListener('change', e => {
+  simOnlyMode = e.target.checked;
+  applyFilter();
+});
+document.getElementById('sidebar-search').addEventListener('input', e => {
+  textFilter = e.target.value.trim().toLowerCase();
+  applyFilter();
+});
+document.getElementById('btn-sidebar').addEventListener('click', () => {
+  document.getElementById('sidebar').classList.toggle('hidden');
+});
 
+// ─── F5: 踏査ルートライン ─────────────────
+function buildRouteLine() {
+  const sorted = [...allFeatures].sort((a, b) => a.properties.time.localeCompare(b.properties.time));
+  const coords = sorted.map(f => [f.geometry.coordinates[1], f.geometry.coordinates[0]]);
+  routeLine = L.polyline(coords, {
+    color: '#1f3a68', weight: 2, opacity: 0.55, dashArray: '5,5',
+    interactive: false
+  });
+  routeLine.addTo(map);
+  document.getElementById('show-route').addEventListener('change', e => {
+    if (e.target.checked) routeLine.addTo(map);
+    else map.removeLayer(routeLine);
+  });
+}
+
+// ─── F7: サイドリスト ─────────────────
+function renderSidebar() {
+  const list = document.getElementById('sidebar-list');
+  const sorted = [...allFeatures].sort((a, b) => a.properties.time.localeCompare(b.properties.time));
+  const visibleSet = new Set(markers.filter(m => map.hasLayer(m)).map(m => m.featureProps.file));
+  list.innerHTML = sorted
+    .filter(f => visibleSet.has(f.properties.file))
+    .map(f => {
+      const p = f.properties;
+      const simBadge = (p.simulations && p.simulations.length)
+        ? `<span class="sim-badge">SIM ${p.simulations.length}</span>` : '';
+      const cats = (p.categories || []).slice(0, 3).map(c => `<span class="badge">${c}</span>`).join('');
+      return `
+        <div class="item" data-file="${p.file}">
+          <img src="${p.thumb}" loading="lazy">
+          <div class="info">
+            <span class="file">${p.file}</span><span class="time">${p.time}</span>
+            <div class="place">${p.place_name || ''}</div>
+            <div class="badges">${simBadge}${cats}</div>
+          </div>
+        </div>
+      `;
+    }).join('');
+  list.querySelectorAll('.item').forEach(el => {
+    el.addEventListener('click', () => {
+      const file = el.dataset.file;
+      const m = markers.find(mk => mk.featureProps.file === file);
+      if (m) {
+        map.setView(m.getLatLng(), Math.max(map.getZoom(), 18), {animate: true});
+        m.openPopup();
+      }
+    });
+  });
+}
+
+function highlightSidebarItem(file) {
+  document.querySelectorAll('#sidebar-list .item').forEach(el => {
+    el.classList.toggle('active', el.dataset.file === file);
+  });
+  const target = document.querySelector(`#sidebar-list .item[data-file="${file}"]`);
+  if (target) target.scrollIntoView({block: 'nearest', behavior: 'smooth'});
+}
+
+// ─── 起動 ─────────────────
 fetch('assets/photos.geojson')
   .then(r => r.json())
   .then(gj => {
@@ -266,11 +509,16 @@ fetch('assets/photos.geojson')
     buildCatButtons(catCounts);
     markers = allFeatures.map(f => makeMarker(f));
     markers.forEach(m => m.addTo(map));
+    buildRouteLine();
     document.getElementById('stats').textContent = `表示: ${markers.length} / ${markers.length}`;
-
-    // 範囲フィット
+    renderSidebar();
     const group = L.featureGroup(markers);
     map.fitBounds(group.getBounds().pad(0.1));
+
+    // モバイルで起動時にサイドバーを畳む
+    if (window.innerWidth <= 768) {
+      document.getElementById('sidebar').classList.add('hidden');
+    }
   })
   .catch(err => {
     alert('photos.geojson の読み込みに失敗しました。\nビルドスクリプトを実行してください: python scripts/build_geojson.py\n\n' + err);

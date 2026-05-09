@@ -1,0 +1,27 @@
+{
+  "_meta": {
+    "version": "0.1",
+    "created": "2026-05-09",
+    "note": "現地写真ID（IMG_NNNN.JPG）をキーに、景観シミュレーション結果（A/B/C等のバリアント）を紐付ける。生成元プロンプトは 07_景観シミュレーション/ChatGPTプロンプト_TOP3_第1回踏査写真.txt"
+  },
+  "IMG_0009.JPG": [
+    {
+      "id": "A",
+      "title": "和洋中間・モダンミニマル",
+      "image": "assets/simulations/IMG_0009_A.jpg",
+      "summary": "上下2段ディスク灯具、マットダークブロンズ支柱φ150mm、温白色3000K"
+    },
+    {
+      "id": "B",
+      "title": "和風行灯",
+      "image": "assets/simulations/IMG_0009_B.jpg",
+      "summary": "四角柱の角灯＋切妻屋根、和紙張り風、黒漆塗風支柱、電球色2700K"
+    },
+    {
+      "id": "C",
+      "title": "街路灯撤去・低背分散照明への再編",
+      "image": "assets/simulations/IMG_0009_C.jpg",
+      "summary": "中央モニュメント完全撤去、浅い水盤化、ボラード照明分散配置で広場の見通し改善"
+    }
+  ]
+}

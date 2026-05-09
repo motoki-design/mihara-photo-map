@@ -22,6 +22,7 @@ sys.stdout.reconfigure(encoding='utf-8')
 ROOT = Path(__file__).resolve().parent.parent
 SRC_LOG = Path(r"c:\Users\motok\Dropbox\03_Cursor_Projects\004_31680_三原駅周辺公共空間デザイン検討\06_経緯ログ\現地写真ログ_2026-04-27.md")
 DICT_PATH = ROOT / "data" / "location_dict.json"
+SIM_PATH = ROOT / "data" / "simulations.json"
 OUT_PATH = ROOT / "assets" / "photos.geojson"
 
 # ─── カテゴリ判定キーワード ───
@@ -121,6 +122,15 @@ def main():
     dict_obj = json.loads(DICT_PATH.read_text(encoding='utf-8'))
     places = dict_obj["places"]
     print(f'場所辞書 places: {len(places)}')
+
+    # シミュレーション辞書（任意）
+    simulations_map = {}
+    if SIM_PATH.exists():
+        sim_obj = json.loads(SIM_PATH.read_text(encoding='utf-8'))
+        for k, v in sim_obj.items():
+            if not k.startswith('_') and isinstance(v, list):
+                simulations_map[k] = v
+        print(f'シミュレーション付き写真: {len(simulations_map)} 件')
 
     # ステージ1: 辞書マッチ
     for e in entries:
@@ -226,7 +236,8 @@ def main():
                 "accuracy": e.get("accuracy", ""),
                 "categories": cats,
                 "thumb": f'assets/thumbs/{Path(e["file"]).stem}.jpg',
-                "photo": f'assets/photos/{Path(e["file"]).stem}.jpg'
+                "photo": f'assets/photos/{Path(e["file"]).stem}.jpg',
+                "simulations": simulations_map.get(e["file"], [])
             }
         })
 
